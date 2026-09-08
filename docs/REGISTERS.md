@@ -14,7 +14,9 @@ Audience: team and reviewers. Type: current state. Updated: 2026-09-08.
 | D06 | User-suggested candidate | Evaluate Mach 1 among tentative achievements; see achievement-goal owner | G0 priorities, qualified review, and quantitative feasibility |
 | D07 | Proposed after audit | OpenRocket and FreeCAD first; RocketPy next; OpenVSP/JSBSim conditional for glider work. Simulation plan owns the current recommendation. | Reference-example results, team experience, and compatibility evidence |
 | D08 | User clarified scope | Simulator work includes upstream improvements, a fork, or original simulator development; route remains open | SD0 requirements and reference-suite review |
-| D09 | User requested | Prepare an interactive website-builder prompt; interpret gsp as GSAP and distinguish animation from simulation | User corrects technology intent or authorizes a website build |
+| D09 | Superseded | Former website request retired by the [digital reset](DECISION-2026-09-08-DIGITAL-RESET.md); no old implementation is a design reference | User explicitly changes direction |
+| D10 | User requested | Scope a fresh spatial digital project workspace before implementation; reset note owns the decision | User changes product intent |
+| D11 | Proposed | [Digital scope](DIGITAL-WORKSPACE-SCOPE.md) recommends a local typed board, separate 3D inspection, and portable project export | User review; immediate shared editing or different primary session |
 
 ## Risk register
 

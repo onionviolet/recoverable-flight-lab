@@ -58,7 +58,7 @@ The layers below are software boundaries, not independently selected products.
 | Adapters and data | Import/export, upstream tool execution, measured data, and external coefficients | Versioned formats; transformations and units recorded |
 | Analysis and presentation | Comparisons, uncertainty, reports, and replay | Read run artifacts; do not silently substitute animation for computed results |
 
-Keep the kernel usable without the website. Browser interaction should load an existing run or request a clearly identified new computation. Camera movements and label animations must not modify the physics state.
+Keep the kernel usable without the digital workspace. Browser interaction should load an existing run or request a clearly identified new computation. Camera movements and label animations must not modify the physics state.
 
 Use Python for an initial inspectable prototype if compatible with the team's selected dependencies. Consider compiled components only after profiling a representative workload. Do not choose a language solely from expected speed before measuring the actual bottleneck.
 
@@ -108,7 +108,7 @@ The following are provisional engineering allowances for discussing scope. They 
 | Original conventional rigid-body kernel with numerical verification | 100–300 person-hours | Numerical experience and supported model scope; excludes physical validation and full multiphysics |
 | Integrated, physically validated modular-vehicle research simulator | No credible estimate before SD0–SD3 | Coupling assumptions, physical data, revisions, and specialist availability |
 
-These alternatives overlap and must not be added into a single schedule. A prototype can be built before it is trustworthy enough for engineering decisions. The website can be built independently while physics work proceeds.
+These alternatives overlap and must not be added into a single schedule. A prototype can be built before it is trustworthy enough for engineering decisions. The digital workspace has a [separate product scope](DIGITAL-WORKSPACE-SCOPE.md); no replacement implementation is authorized by this simulator specification.
 
 Required responsibilities are numerical/software implementation, physical-model review, measured-data acquisition, and reproducibility review. Evaluate existing university equipment before buying compute. Profile serial reference cases before planning parallel or GPU work.
 

@@ -1,0 +1,23 @@
+name: Proposed idea
+description: Suggest a change, alternative, or experiment for review.
+title: '[Idea] '
+body:
+  - type: input
+    id: context
+    attributes:
+      label: Related module or record
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal and intended benefit
+    validations:
+      required: true
+  - type: textarea
+    id: assumptions
+    attributes:
+      label: Assumptions and unresolved questions
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence or proposed check
+      description: Link supporting work or describe how the idea could be evaluated.

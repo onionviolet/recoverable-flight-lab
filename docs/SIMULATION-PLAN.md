@@ -74,7 +74,7 @@ The first deliverable should be a reproducible conventional reference model, fol
 
 User clarification: this scope includes improving existing simulators, maintaining a fork, and building a new simulator from scratch. The [simulator development specification](SIMULATOR-DEVELOPMENT-SPEC.md) owns those routes, architecture boundaries, software milestones, and effort allowances. The work packages below describe vehicle-analysis needs regardless of implementation route.
 
-The website showcase is a separate presentation artifact. Its camera movement, exploded views, and folding-wing animation are illustrations. They are not solver outputs unless a future, documented data import supplies them.
+The proposed [digital workspace](DIGITAL-WORKSPACE-SCOPE.md) is separate from solver implementation. Its camera movement, exploded views, and folding-wing animation are illustrations. They are not solver outputs unless a future, documented data import supplies them.
 
 ### Five work packages
 

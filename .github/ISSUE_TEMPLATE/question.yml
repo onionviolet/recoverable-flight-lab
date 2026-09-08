@@ -1,0 +1,21 @@
+name: Project question
+description: Ask about a module, assumption, or proposed test.
+title: '[Question] '
+body:
+  - type: input
+    id: context
+    attributes:
+      label: Related module or record
+      placeholder: e.g. M02 Deployment module
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: State what is unclear and what information would help.
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: References or observations
+      description: Optional links, measurements, or related work. Distinguish measured results from estimates.

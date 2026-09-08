@@ -6,11 +6,7 @@ Student rocketry, recoverable hardware, and an experimental deployable-wing glid
 
 The long-term idea is a modular rocket with a recoverable nose payload and folding wings. The proposed first build is a smaller conventional rocket with commercial certified propulsion and established recovery. A glider and an inert wing mechanism develop separately before any integration decision.
 
-![Concept and development architecture](docs/diagrams/concept.svg)
-
-This diagram preserves the original ideas and distinguishes them from the proposed baseline. It is a schematic, not a fabrication drawing.
-
-[Download PNG](docs/diagrams/concept.svg.png) · [Editable SVG](docs/diagrams/concept.svg)
+The previous showcase website has been scrapped at the user's request. A fresh [spatial workspace scope](docs/DIGITAL-WORKSPACE-SCOPE.md) is proposed, informed by the [reset decision](docs/DECISION-2026-09-08-DIGITAL-RESET.md). A first local [workspace application](workspace/README.md) now exists, with [verification and remaining review](docs/DIGITAL-WORKSPACE-IMPLEMENTATION.md).
 
 ## Read the project
 
@@ -23,7 +19,8 @@ This diagram preserves the original ideas and distinguishes them from the propos
 | [Simulation plan](docs/SIMULATION-PLAN.md) | Model fidelity, inputs, validation, guidance scope |
 | [Simulator development scope](docs/SIMULATOR-DEVELOPMENT-SPEC.md) | Extending upstream, maintaining a fork, or building a new simulator; architecture and development gates |
 | [Open-source audit](docs/OPEN-SOURCE-AUDIT-2026-09-08.md) | Dated tool comparison, release/license evidence, local readiness, and evaluation packets |
-| [Interactive website prompt](docs/SHOWCASE-WEBSITE-PROMPT.md) | Self-contained GSAP/Canvas showcase brief, interactions, content, and acceptance checks |
+| [Digital workspace scope](docs/DIGITAL-WORKSPACE-SCOPE.md) | Proposed product, interaction blueprint, release scope, and evidence plan |
+| [Next builder packet](docs/DIGITAL-WORKSPACE-BUILDER-PACKET.md) | Bounded W1 implementation, pending user authorization |
 | [Propulsion and recovery choices](docs/TRADE-STUDIES.md) | Engine acquisition, jet comparison, visual presentation, alternatives |
 | [Risk and decision register](docs/REGISTERS.md) | Open questions, hazards, decisions, next owners |
 | [Sources](docs/SOURCES.md) | Primary references and their limits |
