@@ -6,6 +6,16 @@ Audience: model builders and reviewers. Type: current state. Updated: 2026-09-08
 
 Answer feasibility questions before committing to flight hardware. Begin with conventional rocket recovery and an independent glider. No simulations have been executed in this repository.
 
+## Tentative tool choices after the open-source audit
+
+Proposed initial pair: OpenRocket for the conventional rocket and FreeCAD for inert geometry and packaging. Add RocketPy for scripted analysis after a reference case is understood. Evaluate OpenVSP plus JSBSim for the independent glider when aerodynamic inputs are available.
+
+ArduPilot SITL is conditional on an aircraft-software requirement. Project Chrono is conditional on a mechanism-dynamics question that simpler methods do not resolve. SU2 is conditional on a focused aerodynamic study with appropriate review.
+
+These are recommendations, not accepted team selections. No package is installed or tested by this project yet. Match documentation to selected releases and evaluate compatibility in an isolated environment. The inspected system Python is not a working simulation environment.
+
+The [dated open-source audit](OPEN-SOURCE-AUDIT-2026-09-08.md) records eight candidate repositories, two reference ecosystems, release/license evidence, local inventory limits, and five pending evaluation packets. No integrated transition model has been validated.
+
 ## Model ladder
 
 | Layer | Tool or method | Outputs | Limit |

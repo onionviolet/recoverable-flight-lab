@@ -12,6 +12,7 @@ Audience: team and reviewers. Type: current state. Updated: 2026-09-08.
 | D04 | Proposed | Commercial certified rocket motor for the rocket baseline | A different mission is explicitly selected |
 | D05 | Unresolved | Final dimensions, module count, active control, and propulsion | Mass, site, budget, and reviewer evidence |
 | D06 | User-suggested candidate | Evaluate Mach 1 among tentative achievements; see achievement-goal owner | G0 priorities, qualified review, and quantitative feasibility |
+| D07 | Proposed after audit | OpenRocket and FreeCAD first; RocketPy next; OpenVSP/JSBSim conditional for glider work. Simulation plan owns the current recommendation. | Reference-example results, team experience, and compatibility evidence |
 
 ## Risk register
 
@@ -40,5 +41,7 @@ Likelihood and severity scores are not assigned without a defined configuration.
 5. Are the original dimensions essential for flight, or can they belong to an inert showcase model?
 
 ## Ownership rules
+
+Open-source audit findings OS01–OS05 and evaluation packets E1–E5 are recorded in [the dated audit](OPEN-SOURCE-AUDIT-2026-09-08.md). Documentation reconciliation is complete; tool execution and physical validation are pending.
 
 Roles are placeholders, not assignments to people in the whiteboard photo. Close an item only with evidence, a decision date, and a named responsible person. Preserve superseded decisions in git history and dated review records. An open question is not approval.

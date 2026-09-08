@@ -4,6 +4,8 @@ Audience: team and reviewers. Type: current state. Checked: 2026-09-08.
 
 These sources support general capabilities and planning. They do not validate this vehicle. Recheck current rules and manufacturer documentation before procurement or operations.
 
+The [2026-09-08 open-source audit](OPEN-SOURCE-AUDIT-2026-09-08.md) contains the expanded software/reference-project inventory, exact release links, license evidence, and per-tool limitations. Its metadata is a dated snapshot.
+
 | Source | Supports | Limit |
 |---|---|---|
 | [NASA propulsion overview](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/propulsion-system/) | Rocket versus air-breathing propulsion | Educational overview |
