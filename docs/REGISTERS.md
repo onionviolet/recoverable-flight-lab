@@ -11,6 +11,7 @@ Audience: team and reviewers. Type: current state. Updated: 2026-09-08.
 | D03 | Proposed | Conventional rocket and independent glider before integration | G0 review and team priorities |
 | D04 | Proposed | Commercial certified rocket motor for the rocket baseline | A different mission is explicitly selected |
 | D05 | Unresolved | Final dimensions, module count, active control, and propulsion | Mass, site, budget, and reviewer evidence |
+| D06 | User-suggested candidate | Evaluate Mach 1 among tentative achievements; see achievement-goal owner | G0 priorities, qualified review, and quantitative feasibility |
 
 ## Risk register
 

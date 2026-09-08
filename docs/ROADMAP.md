@@ -4,6 +4,8 @@ Audience: team and advisor. Type: current state. Updated: 2026-09-08.
 
 These phases are evidence gates, not promised dates. A possible academic sequence is concept and independent demonstrators in one term, with integration considered in a later term. Actual duration depends on access, skills, budget, and test opportunities.
 
+Select the mission from [tentative achievement goals](ACHIEVEMENT-GOALS.md). Mach 1 is an optional performance branch, not an extra gate imposed on the winged concept.
+
 ## Milestones
 
 | Gate | Work and tangible result | Exit evidence | Proposed role |

@@ -8,6 +8,8 @@ These sources support general capabilities and planning. They do not validate th
 |---|---|---|
 | [NASA propulsion overview](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/propulsion-system/) | Rocket versus air-breathing propulsion | Educational overview |
 | [NASA rocket stability](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/conditions-for-rocket-stability/) | Conventional passive stability | Not a detached glider analysis |
+| [NASA drag overview](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/what-is-drag/) | Shock formation and wave drag near the speed of sound | Does not quantify this vehicle |
+| [NAR safety officer guidance](https://www.nar.org/content.aspx?club_id=114127&module_id=673715&page_id=22) | Specialized considerations for supersonic-capable rockets | Does not establish project feasibility or authorize a flight |
 | [NAR certification](https://www.nar.org/HPRCertification) | High-power certification route | Not the complete set of local legal obligations |
 | [NAR high-power safety code](https://www.nar.org/HighPowerRocketSafetyCode) | Certified propulsion and launch practices | Apply with responsible range personnel |
 | [NAR motor listing](https://www.nar.org/content.aspx?club_id=114127&module_id=669684&page_id=22) | Current certification reference | No motor selected here |

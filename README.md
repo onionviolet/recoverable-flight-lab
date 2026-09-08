@@ -17,6 +17,7 @@ This diagram preserves the original ideas and distinguishes them from the propos
 | Document | Owns |
 |---|---|
 | [User vision](USER-VISION.md) | Original intent, desired experience, unresolved preferences |
+| [Tentative achievement goals](docs/ACHIEVEMENT-GOALS.md) | Reuse, flight replay, wing demonstration, prediction, and a Mach 1 stretch option |
 | [System specification](docs/SYSTEM-SPEC.md) | Configuration, requirements, interfaces, acceptance evidence |
 | [Development roadmap](docs/ROADMAP.md) | Milestones, physical work, roles, budget structure, test records |
 | [Simulation plan](docs/SIMULATION-PLAN.md) | Model fidelity, inputs, validation, guidance scope |

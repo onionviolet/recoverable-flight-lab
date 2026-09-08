@@ -29,6 +29,8 @@ The team can show an understandable transformation, explain measured flight beha
 
 Potential directions are speed, reusable recovery, deployable wings, telemetry, and a drone payload. The team has not selected their priority order. Recovery and measurement are the proposed initial emphasis.
 
+Follow-up on 2026-09-08: the user named Mach 1 as a tentative goal and asked for additional impressive achievements. [Achievement goals](docs/ACHIEVEMENT-GOALS.md) owns those candidates and their evidence criteria. This request does not freeze a speed requirement or establish feasibility.
+
 ## Proposed development interpretation
 
 Start with conventional rocketry and a separate lightweight glider. Demonstrate wing deployment on an inert model. Keep the original large integrated vehicle as a later option.
