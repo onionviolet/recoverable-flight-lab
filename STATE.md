@@ -10,6 +10,10 @@ The local repository and GitHub copy were verified against the same commit befor
 
 The [open-source audit](docs/OPEN-SOURCE-AUDIT-2026-09-08.md) inspected eight software repositories and two reference ecosystems. It recorded capabilities, release/license evidence, local inventory limits, and five findings with dispositions. Tentative tool choices now live in the simulation plan. The five tool-evaluation packets have not been executed.
 
+The simulation plan now includes five implementation packages, required inputs, validation gates, proposed code organization, and provisional effort allowances. The [interactive website prompt](docs/SHOWCASE-WEBSITE-PROMPT.md) specifies a hoverable GSAP/Canvas showcase with separate original-vision and baseline views. It is a prepared work packet; no website has been built or deployed.
+
+The user clarified that simulator work includes upstream improvements, a maintained fork, or a new simulator from scratch. The [simulator development specification](docs/SIMULATOR-DEVELOPMENT-SPEC.md) scopes those choices, model boundaries, development milestones, numerical verification, physical validation, and provisional effort. No implementation route is selected.
+
 ## Not completed
 
 No CAD suitable for manufacture, executable flight model, validated aerodynamics, motor selection, procurement, physical prototype, flight approval, or flight test exists. The integrated concept remains unvalidated. Role assignments and budget are open.

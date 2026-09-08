@@ -13,6 +13,8 @@ Audience: team and reviewers. Type: current state. Updated: 2026-09-08.
 | D05 | Unresolved | Final dimensions, module count, active control, and propulsion | Mass, site, budget, and reviewer evidence |
 | D06 | User-suggested candidate | Evaluate Mach 1 among tentative achievements; see achievement-goal owner | G0 priorities, qualified review, and quantitative feasibility |
 | D07 | Proposed after audit | OpenRocket and FreeCAD first; RocketPy next; OpenVSP/JSBSim conditional for glider work. Simulation plan owns the current recommendation. | Reference-example results, team experience, and compatibility evidence |
+| D08 | User clarified scope | Simulator work includes upstream improvements, a fork, or original simulator development; route remains open | SD0 requirements and reference-suite review |
+| D09 | User requested | Prepare an interactive website-builder prompt; interpret gsp as GSAP and distinguish animation from simulation | User corrects technology intent or authorizes a website build |
 
 ## Risk register
 

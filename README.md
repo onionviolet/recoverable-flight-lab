@@ -21,7 +21,9 @@ This diagram preserves the original ideas and distinguishes them from the propos
 | [System specification](docs/SYSTEM-SPEC.md) | Configuration, requirements, interfaces, acceptance evidence |
 | [Development roadmap](docs/ROADMAP.md) | Milestones, physical work, roles, budget structure, test records |
 | [Simulation plan](docs/SIMULATION-PLAN.md) | Model fidelity, inputs, validation, guidance scope |
+| [Simulator development scope](docs/SIMULATOR-DEVELOPMENT-SPEC.md) | Extending upstream, maintaining a fork, or building a new simulator; architecture and development gates |
 | [Open-source audit](docs/OPEN-SOURCE-AUDIT-2026-09-08.md) | Dated tool comparison, release/license evidence, local readiness, and evaluation packets |
+| [Interactive website prompt](docs/SHOWCASE-WEBSITE-PROMPT.md) | Self-contained GSAP/Canvas showcase brief, interactions, content, and acceptance checks |
 | [Propulsion and recovery choices](docs/TRADE-STUDIES.md) | Engine acquisition, jet comparison, visual presentation, alternatives |
 | [Risk and decision register](docs/REGISTERS.md) | Open questions, hazards, decisions, next owners |
 | [Sources](docs/SOURCES.md) | Primary references and their limits |

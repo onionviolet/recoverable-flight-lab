@@ -31,6 +31,8 @@ Potential directions are speed, reusable recovery, deployable wings, telemetry, 
 
 Follow-up on 2026-09-08: the user named Mach 1 as a tentative goal and asked for additional impressive achievements. [Achievement goals](docs/ACHIEVEMENT-GOALS.md) owns those candidates and their evidence criteria. This request does not freeze a speed requirement or establish feasibility.
 
+Further clarification on 2026-09-08: simulation work includes expanding and improving existing software or building a new simulator from scratch. The [simulator development specification](docs/SIMULATOR-DEVELOPMENT-SPEC.md) compares those routes. The user also requested a prompt for a visual, hoverable website explaining the idea and user vision; the prepared showcase prompt owns that deliverable.
+
 ## Proposed development interpretation
 
 Start with conventional rocketry and a separate lightweight glider. Demonstrate wing deployment on an inert model. Keep the original large integrated vehicle as a later option.
