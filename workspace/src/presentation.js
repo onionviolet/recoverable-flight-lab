@@ -1,6 +1,15 @@
 import {seedRecords} from './data.js';
+export const humanCriteria=[
+ 'Build a real university engineering project, not just a digital concept.',
+ 'Make it visually impressive and easy to explain through physics.',
+ 'Learn by building and testing in person, in stages.',
+ 'Recover useful hardware and demonstrate it again.',
+ 'Explore folding wings, aircraft-like descent, flight measurement, and simulation.',
+ 'Leave behind a working physical demonstrator, readable design records, and honest evidence.'
+];
 export const engineeringLabels={
- 'Recoverable flight':'The flight concept','One ambitious idea. Many questions worth exploring.':'A vehicle idea, and what we still need to figure out.',
+ 'Recoverable flight':'The flight concept','One ambitious idea. Many questions worth exploring.':'Folding wings. Recoverable parts.',
+ 'Cone payload with an altimeter, other hardware, and two fins. Intended to detach and glide; the cone is not a validated glider. Lift, balance, control, and recovery for every separated piece remain open.':'Instruments and two fins in a detachable nose. Glide recovery is still an open question.',
  '01 / Recovery payload':'01 / Nose & payload','Recovery payload':'01 / Nose & payload','A detachable nose. A different way down.':'Instruments up front. How will the nose come back?',
  '02 / Deployable wings':'02 / Folding wings','Deployable wings':'02 / Folding wings','Stow within. Open possibilities.':'Wings inside the body, opening out for descent.',
  '03 / Propulsion concept':'03 / Propulsion','Propulsion concept':'03 / Propulsion','Jet-inspired form. Architecture still open.':'The engine choice is still open.',
@@ -16,7 +25,7 @@ export const engineeringLabels={
  'Extend, fork, or build?':'Which way should the simulator go?'
 };
 const steps={
- vision:{label:'Original wish',explain:'C4 is the integrated aspiration: a modular vehicle with internal folding wings and recoverable parts. The model explains that idea. It is not a chosen architecture, CAD model, or simulation.',next:'wing',action:'Pick a module'},
+ vision:{label:'',explain:'',next:'wing',action:'Explore modules'},
  wing:{label:'Original wish',explain:'The middle section is meant to hold two folding wings. The biggest question is whether the wings, mechanism, wiring, and recovery hardware can fit and move without colliding.',next:'pack',back:'vision',action:'Follow the packaging question'},
  pack:{label:'Open question',explain:'We need real component dimensions and clearances. A possible answer exists, but it is only an assumption until a mockup checks it.',next:'hyp',back:'wing',action:'See the possible answer'},
  hyp:{label:'Assumption',explain:'An internal segmented fold might fit. That is a working guess, not a result. Dimensions, mass, and a continuous motion path are still missing.',next:'test',back:'pack',action:'See the proposed test'},
@@ -25,7 +34,7 @@ const steps={
  evidence:{label:'Documentary evidence only',explain:'The repository has intent, requirements, and plans. It has no packaging measurements, flight logs, manufacturing design, or validated simulation result.',next:'baseline',back:'decision',action:'Compare a smaller path'},
  baseline:{label:'Proposed option',explain:'C0, C1, and C2 are proposed separate development articles. They may reduce integration risk, but the team has not accepted them as the architecture.',next:'gate',back:'evidence',action:'See what must be decided'},
  gate:{label:'Open gate',explain:'G0 needs agreement on mission, budget, owners, test access, and evidence criteria. It is not complete.',back:'baseline'},
- nose:{label:'Original wish',explain:'The nose carries instruments and is intended to detach and glide. The cone shape does not prove lift, stability, control, or recoverability.',next:'recover',back:'vision',action:'Follow the recovery question'},
+ nose:{label:'Original wish',explain:'The nose carries instruments and is intended to detach and glide. Whether it can do that is an open question.',next:'recover',back:'vision',action:'Follow the recovery question'},
  recover:{label:'Open question',explain:'No recovery hypothesis or test record exists yet. Proposed next step: draft a piece-by-piece recovery table, then plan a separately reviewed low-energy descent test. Evidence that could change a decision: measured descent behavior, tracking success, and safe retrieval for every piece.',back:'nose',draft:true,draftType:'experiment',draftLabel:'Draft the missing test'},
  aft:{label:'Original wish',explain:'The aft section has fighter-jet-inspired styling and two fins. No engine architecture or performance requirement is selected.',back:'vision',draft:true,draftLabel:'Draft the propulsion question',proposal:'Proposed next step: define the mission and constraints, compare certified commercial propulsion data, and set an advisor-reviewed test plan. A selected system plus reviewed requirements and measured results could support a later decision.'},
  goals:{label:'Open question',explain:'Several impressive goals are listed, but no priority order is selected. Choose the first demonstration before turning a wish into a requirement.',next:'gate',action:'See the scope gate'},

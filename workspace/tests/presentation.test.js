@@ -1,7 +1,14 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {newProject,validateProject} from '../src/data.js';
-import {displayText,matchesRecord,edgeLabel,contextStep} from '../src/presentation.js';
+import {displayText,matchesRecord,edgeLabel,contextStep,humanCriteria} from '../src/presentation.js';
+test('human criteria preserve the original team goals without engineering corrections',()=>{
+ assert.equal(humanCriteria.length,6);
+ assert.ok(humanCriteria.some(item=>/visually impressive/.test(item)));
+ assert.ok(humanCriteria.some(item=>/building and testing in person/.test(item)));
+ assert.ok(humanCriteria.some(item=>/Recover useful hardware/.test(item)));
+ assert.ok(humanCriteria.every(item=>!/(does not|not a validated|unproven)/i.test(item)));
+});
 test('search finds visible labels and original source wording without changing saved records',()=>{
  const p=newProject(),before=JSON.stringify(p),r=p.records.find(r=>r.id==='pack');
  assert.ok(matchesRecord(r,'Can everything fit'));

@@ -86,3 +86,26 @@ input,textarea,select,#connection-controls select{background:#111;color:#eee;bor
 @media(max-width:800px){.reading-path{margin-top:8px}.reading-path p{line-height:1.45}.reading-path .primary{margin-left:0}.record-details{margin-top:10px}}
 .capture-types{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:18px 0}.capture-types button{text-align:left;padding:14px}.capture-types strong,.capture-types span{display:block}.capture-types strong{font-size:13px}.capture-types span{color:#aaa;font-size:10px;margin-top:6px;line-height:1.4}
 @media(max-width:520px){.capture-types{grid-template-columns:1fr}}
+
+/* The entry warning carries the safety context so the board itself can stay idea-led. */
+dialog.entry-disclaimer{width:min(860px,calc(100vw - 32px));max-width:none;padding:clamp(24px,5vw,64px);border:3px solid #f0c84b;background:#090909;box-shadow:0 0 0 100vmax #000d;text-align:center}
+dialog.entry-disclaimer::backdrop{background:#000e;backdrop-filter:blur(8px)}
+.entry-disclaimer .warning-label{display:inline-block;padding:7px 11px;border:1px solid #f0c84b;color:#f0c84b;font-size:12px;font-weight:800;letter-spacing:1.4px}
+.entry-disclaimer h2{max-width:none;margin:24px 0 20px;color:#fff;font-size:clamp(38px,7vw,78px);font-weight:900;line-height:.95;letter-spacing:-2px}
+.entry-disclaimer .warning-main{margin:8px 0;color:#f0c84b;font-size:clamp(24px,4vw,46px);font-weight:900;line-height:1.05}
+.entry-disclaimer .warning-context{max-width:680px;margin:28px auto;color:#d5d5d5;font-size:clamp(15px,2vw,19px);line-height:1.55}
+.entry-disclaimer #enter-board{min-height:52px;padding:14px 22px;font-size:15px;font-weight:800}
+@media(max-width:520px){dialog.entry-disclaimer{width:calc(100vw - 20px);padding:24px 16px}.entry-disclaimer h2{letter-spacing:-1px}.entry-disclaimer #enter-board{width:100%}}
+.human-criteria{margin:18px 0 22px;padding:0;border:0;background:none}
+.human-criteria>p{margin:8px 0 12px;color:#bdbdbd;font-size:12px}
+.human-criteria ul{display:grid;gap:9px;margin:0;padding-left:18px;list-style:disc}
+.human-criteria li{color:#e2e2e2;font-size:12px;line-height:1.5}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap;border:0}
+#section-nav{top:20px}
+#connection-controls{top:72px;left:26px;right:auto;transform:none}
+#viewport{background:#000}
+dialog.entry-disclaimer{border:1px solid #666;box-shadow:none}
+dialog.entry-disclaimer::backdrop{background:#000e;backdrop-filter:none}
+.entry-disclaimer .warning-label{border:0;padding:0;color:#aaa;letter-spacing:0}
+.entry-disclaimer .warning-main{color:#ededed}
+@media(max-width:800px){#section-nav{top:12px}#connection-controls{top:62px;left:10px;right:10px}}
