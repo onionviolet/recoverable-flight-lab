@@ -1,6 +1,6 @@
 # Contributing questions and ideas
 
-Public contributions will open when this repository is made public. Until then, repository access is required.
+Questions and ideas are welcome through this public repository.
 
 Use the **Project question** or **Proposed idea** form under Issues. Name the relevant module or board record, state the question or proposal, and include supporting sources where available. GitHub requires an account to submit. Avoid including private board backups or personal information.
 

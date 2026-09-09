@@ -1,12 +1,10 @@
-# Public release preparation
+# Public workspace release
 
-Status: prepared locally; publication deferred at the user's request. The user subsequently authorized a GitHub push of the workspace. Visibility changes and Pages deployment remain deferred.
+The user authorized public repository visibility and GitHub Pages deployment.
 
-Target repository: https://github.com/onionviolet/recoverable-flight-lab
-Target Pages URL: https://onionviolet.github.io/recoverable-flight-lab/
+Site: https://onionviolet.github.io/recoverable-flight-lab/
+Repository: https://github.com/onionviolet/recoverable-flight-lab
 
-Before release, review the files and Git history that will become public. The attached private whiteboard photo must remain excluded. Check source snapshots and historical documents for personal information and local paths, and decide licensing explicitly.
+Deployment uses the manually dispatched **Publish workspace to Pages** workflow on main. Future pushes do not automatically deploy. The site publishes only the built workspace and its source snapshots. The private whiteboard photo is absent from repository history; the historical image is the retired generated concept illustration. Old task history includes local development context, while current handoff text has portable references.
 
-When release is requested: commit the reviewed changes, make the repository public, enable Issues, configure Pages to use GitHub Actions, then manually run **Publish workspace to Pages**. The workflow deliberately has no push trigger. Verify source reading, contribution links, model loading, and local backup behavior at the deployed subpath.
-
-Question and idea issue forms are prepared in `.github/ISSUE_TEMPLATE/`. Visitors submit on GitHub after reviewing their own text; the app sends no local board data. Maintainers decide which submissions enter the canonical project. This is not simultaneous board editing.
+Visitors use Start here to understand the study and Questions & ideas to submit public GitHub issues. Their local board edits are not shared automatically. Maintainers review proposals before incorporating them. Public access does not establish engineering approval or an open-source license.

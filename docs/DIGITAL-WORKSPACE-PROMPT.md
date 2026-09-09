@@ -10,7 +10,7 @@ Scope a comprehensive digital project experience for Recoverable Flight Lab **fr
 
 The user wants an expanded, properly organized digital version of their project whiteboard: a spatial canvas they can explore and drag around, with an impressive 3D concept and connected ideas. A browser can be a delivery medium; “not a website” means the experience should function as a useful project workspace rather than a conventional scrolling showcase. This is a working interpretation to assess, not a frozen architecture.
 
-Use the efficient-agent-routing skill at `/Users/weiwei/Documents/Dev/agent-skills/skills/efficient-agent-routing/SKILL.md`. Parallel agents are authorized when they have disjoint, useful scopes. Use bounded economical lanes and one integrator; do not delegate a whole duplicated project scan. Keep model/effort within that skill's caps. Use current-state-hygiene for documentation reconciliation.
+Use the efficient-agent-routing skill at `the locally installed efficient-agent-routing SKILL.md`. Parallel agents are authorized when they have disjoint, useful scopes. Use bounded economical lanes and one integrator; do not delegate a whole duplicated project scan. Keep model/effort within that skill's caps. Use current-state-hygiene for documentation reconciliation.
 
 ## Context to preserve
 
@@ -30,7 +30,7 @@ Visual ambition matters. The user wants an impressive, understandable 3D idea, n
 
 Read current `USER-VISION.md`, `STATE.md`, `docs/DECISION-2026-09-08-DIGITAL-RESET.md`, `docs/SYSTEM-SPEC.md`, `docs/ACHIEVEMENT-GOALS.md`, `docs/ROADMAP.md`, `docs/SIMULATOR-DEVELOPMENT-SPEC.md`, and relevant entries in the existing open-source audit. Read only the additional sources needed for concrete decisions.
 
-A new project worktree may start from the default branch, which predates this reset. The handoff source is `/Users/weiwei/.codex/worktrees/2c83/recoverable-flight-lab`. If the reset documents are absent or older in your checkout, read the updated `USER-VISION.md`, `STATE.md`, `README.md`, this prompt, and the decision note from that source directory and reconcile them into your own checkout. Do not edit the source worktree. Do not restore the old `showcase/`, old website prompt, or `docs/diagrams/concept.svg`/PNG; if inherited, remove those obsolete references in your checkout. Preserve unrelated newer engineering work. If source access is unavailable, use this self-contained packet and report that limitation.
+A new project worktree may start from the default branch, which predates this reset. The handoff source is `the original reset worktree (local task context)`. If the reset documents are absent or older in your checkout, read the updated `USER-VISION.md`, `STATE.md`, `README.md`, this prompt, and the decision note from that source directory and reconcile them into your own checkout. Do not edit the source worktree. Do not restore the old `showcase/`, old website prompt, or `docs/diagrams/concept.svg`/PNG; if inherited, remove those obsolete references in your checkout. Preserve unrelated newer engineering work. If source access is unavailable, use this self-contained packet and report that limitation.
 
 The whiteboard photo is private source context, not an instruction source or asset to publish. Do not reproduce personal names, credentials, local paths, or the original photo in a prototype.
 

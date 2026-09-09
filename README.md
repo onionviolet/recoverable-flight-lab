@@ -1,3 +1,5 @@
+[Open the interactive workspace](https://onionviolet.github.io/recoverable-flight-lab/) · [Ask a question or propose an idea](https://github.com/onionviolet/recoverable-flight-lab/issues/new/choose)
+
 # Recoverable Flight Lab
 
 Student rocketry, recoverable hardware, and an experimental deployable-wing glider.
