@@ -24,7 +24,7 @@ No validated glide performance, deployment timing, actuator behavior, structural
 
 ## Next bounded tasks
 
-Digital workspace: review the running local canvas and the [implementation record](docs/DIGITAL-WORKSPACE-IMPLEMENTATION.md). Nineteen data/geometry/recovery tests and a production build pass. Live browser checks cover the basic working loop, desktop/narrow layout, reordered story persistence, source reading, quota failure, corrupt-data recovery, and forced 3D context loss. File-chooser automation remains blocked by the browser extension setting. Remaining accessibility, browser-failure, and performance checks are listed explicitly. The user has now authorized public repository visibility and GitHub Pages publication. The manual deployment workflow, external question/idea forms, and visitor guide are ready for release. See [release preparation](docs/PUBLIC-RELEASE-PLAN.md).
+Digital workspace: review the running local canvas and the [implementation record](docs/DIGITAL-WORKSPACE-IMPLEMENTATION.md). Nineteen data/geometry/recovery tests and a production build pass. Live browser checks cover the basic working loop, desktop/narrow layout, reordered story persistence, source reading, quota failure, corrupt-data recovery, and forced 3D context loss. File-chooser automation remains blocked by the browser extension setting. Remaining accessibility, browser-failure, and performance checks are listed explicitly. The repository is public and the workspace is live on GitHub Pages. Deployment run 34297344856 succeeded; live checks passed for the model, guide, contribution links, and source loading. See [release preparation](docs/PUBLIC-RELEASE-PLAN.md).
 
 Physical project:
 

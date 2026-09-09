@@ -1,6 +1,8 @@
 # Public workspace release
 
-The user authorized public repository visibility and GitHub Pages deployment.
+Status: published and verified. The repository is public. Deployment run 34297344856 successfully published application commit c3fa23d.
+
+Live verification passed: HTTP 200, model canvas, guide navigation, contribution links, source snapshot, and no browser page errors.
 
 Site: https://onionviolet.github.io/recoverable-flight-lab/
 Repository: https://github.com/onionviolet/recoverable-flight-lab
