@@ -26,13 +26,29 @@ No validated glide performance, deployment timing, actuator behavior, structural
 
 Digital workspace: the [flow audit](docs/WORKSPACE-FLOW-AUDIT.md) owns the current visitor-flow implementation and verification. The OLED-black spatial canvas now opens with a whole-project explanation and a single contextual next action. Packaging has a complete module → unknown → assumption → unperformed test → draft decision → documentary-evidence trail. Nose/recovery and propulsion name their missing test records and offer clearly attributed local draft steps. A prominent Add idea action now sorts local notes into an open question, possible answer, test to try, or draft decision; the form explains browser autosave and portable backup. Full records, saved relationships, comparison, editing, arrangement, sources, local backup, and public GitHub review routes remain available without changing the persistence schema or canonical records. All 24 Node tests and the Pages-subpath production build pass; current browser evidence and limits are in the audit. Owner visual acceptance, actual touch/screen-reader review, full file-chooser recovery roundtrip, crash testing, and performance checks remain open.
 
-These changes are local and unpublished. The existing public deployment remains application commit c3fa23d, run 34297344856; the current worktree is based on 418f7c6. No push or deployment was made. See [release status](docs/PUBLIC-RELEASE-PLAN.md).
+The current implementation is published from commit `dd2d66b`. GitHub Pages run `34306705768` completed successfully, and the live asset was checked for the new Add idea flow. See [release status](docs/PUBLIC-RELEASE-PLAN.md).
 
 Physical project:
 
 Complete G0 using the five questions in [the register](docs/REGISTERS.md). Start with the primary demonstration and budget ceiling. Then build a measured mass and packaging ledger for a conventional baseline and separate glider.
 
 Do not treat the original envelope or suggested development architecture as an accepted final design. Keep the vision owner separate from engineering recommendations.
+
+## Resume point
+
+Date and scope: 2026-09-08, digital workspace flow, idea capture, publication, and durable handoff.
+
+Where we left off: `origin/main`, local HEAD, and the published Pages application all contain `dd2d66b`. USER-VISION owns the accepted product experience and persistence boundaries. The flow audit owns implementation evidence and remaining checks.
+
+Decisions changed: the spatial idea board, OLED-black conversational presentation, contextual reading flow, obvious local idea capture, browser autosave/backup boundary, and separate public contribution route are accepted digital directions. No physical architecture was accepted. Shared cloud collaboration remains outside current scope.
+
+Completed and verified: 24 Node tests, Pages-subpath production build, desktop and 390 × 844 inspection, packaging and recovery trails, source loading, local reload persistence, contribution boundaries, push, deployment, and live-asset check.
+
+Open items, ranked: complete G0 mission choices; obtain owner visual acceptance; perform screen-reader and actual-touch review; exercise a full file-chooser backup/import roundtrip; decide whether shared collaboration is worth its account/privacy/conflict cost.
+
+Active blocker: physical work cannot pass G0 until the primary demonstration, budget ceiling, mentor/reviewer, test access, and evidence criteria have owners.
+
+Resume with: answer the five G0 questions in [REGISTERS.md](docs/REGISTERS.md), beginning with the primary demonstration and budget ceiling.
 
 ## Scoping verification
 

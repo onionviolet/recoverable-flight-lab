@@ -33,7 +33,19 @@ Potential directions are speed, reusable recovery, deployable wings, telemetry, 
 
 The user now wants the digital product scoped from scratch, beyond a traditional website. The intended experience is a comprehensive, expanded digital version of the project whiteboard: spatial, explorable, and properly organized. Dragging around a canvas, inspecting an impressive 3D concept, hovering/selecting modules, and exploring connected ideas are desired qualities. A space backdrop is a visual preference, not evidence of orbital capability. Wings must stow inside the cylinder, not remain attached outside when folded.
 
-A spatial project workspace connecting concepts, questions, sources, experiments, and evidence is the proposed product interpretation. A proposed feature, interaction, and persistence scope is now documented, but not accepted by the user. Technology remains unselected. The user subsequently authorized a first implementation using the original whiteboard as concept reference, with text alongside the canvas. This does not accept a final physical architecture. The user subsequently authorized publishing the workspace on GitHub Pages and making the repository public. The rejected site is not a starter shell, a template, or an accepted visual direction. See the [decision record](docs/DECISION-2026-09-08-DIGITAL-RESET.md) for the explicit reset and handoff.
+A spatial project workspace connecting concepts, questions, sources, experiments, and evidence began as the proposed product interpretation and is now the accepted digital direction below. The user authorized its implementation using the original whiteboard as concept reference, with text alongside the canvas, then authorized the public repository and GitHub Pages deployment. This does not accept a final physical architecture. The rejected site is not a starter shell, template, or accepted visual direction. See the [decision record](docs/DECISION-2026-09-08-DIGITAL-RESET.md) for the explicit reset and handoff.
+
+## Accepted digital workspace direction
+
+The working product is an explorable idea board, not a conventional showcase site. Keep the spatial canvas, selectable 3D concept, module cards, typed project relationships, contextual inspector, outline/search, editing, arrangement, presentation sequence, and recovery controls. Preserve the OLED-black and charcoal palette, high-contrast connection labels, and short casual language. The tone can be playful; claim status must remain exact.
+
+A first-time visitor should be able to explain the overall aspiration, choose a module, follow its biggest unknown toward a possible answer, proposed test, decision condition, and evidence status, then understand how to contribute. Explanations come before tools. Suggested navigation is reading guidance, not a saved engineering relationship.
+
+Adding an idea should be obvious. Local additions are unreviewed questions, possible answers, tests to try, or draft decisions. They autosave in that browser, remain editable, and can be moved or connected without changing canonical sources. A downloaded board backup is the portable recovery and device-transfer route. Public GitHub questions and ideas are a separate review route and never receive local notes automatically.
+
+Preserve saved boards, stable IDs, positions, user text, edges, story order, source authority, import validation, conflict detection, and recovery behavior across presentation changes. Do not silently migrate or replace user edits. Shared accounts or cloud collaboration are not part of the accepted current scope; they require a separate privacy, permissions, conflict, and recovery decision.
+
+The public repository and GitHub Pages workspace are authorized. Publication does not establish a physical design, engineering approval, test result, or license beyond what the repository explicitly states.
 
 Follow-up on 2026-09-08: the user named Mach 1 as a tentative goal and asked for additional impressive achievements. [Achievement goals](docs/ACHIEVEMENT-GOALS.md) owns those candidates and their evidence criteria. This request does not freeze a speed requirement or establish feasibility.
 

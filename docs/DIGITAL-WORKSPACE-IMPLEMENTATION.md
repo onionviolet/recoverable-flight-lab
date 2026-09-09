@@ -79,7 +79,7 @@ The user subsequently authorized pushing the workspace and this correction to Gi
 
 ## Contextual visitor flow
 
-The unpublished local build now leads with what the team wants to build, what the C4 model illustrates, and which engineering choices remain open. The inspector explains the selected record first, gives one useful next action, and puts broader navigation and full record tools behind optional disclosures. The packaging trail reaches its assumption, unperformed mockup, draft decision, and documentary evidence status without changing the saved graph.
+The current published build leads with what the team wants to build, what the C4 model illustrates, and which engineering choices remain open. The inspector explains the selected record first, gives one useful next action, and puts broader navigation and full record tools behind optional disclosures. The packaging trail reaches its assumption, unperformed mockup, draft decision, and documentary evidence status without changing the saved graph.
 
 Nose/recovery and propulsion now state their missing hypothesis/test records and show proposed next steps as proposals. They do not fabricate graph edges or claim results. C4 remains the original integrated aspiration; C0/C1/C2 remain proposed separate articles. Contribution guidance separates private browser notes and portable backups from public GitHub issues and maintainer review.
 
@@ -94,6 +94,6 @@ Idea capture is now a primary top-bar action rather than a rail icon or contribu
 
 ## Visitor-flow audit, local follow-up
 
-The [workspace flow audit](WORKSPACE-FLOW-AUDIT.md) records the pre-fix findings, implemented remedies, current browser evidence and remaining limits. It supersedes earlier test counts for this local revision: 22 tests and the Pages-subpath build pass. Stored canonical records and user proposals remain compatible. The requested connection-label color fix also addresses Dark Reader recoloring of the already-dark app. This follow-up is unpublished; earlier deployment history is preserved in PUBLIC-RELEASE-PLAN.md.
+The [workspace flow audit](WORKSPACE-FLOW-AUDIT.md) records the pre-fix findings, implemented remedies, current browser evidence and remaining limits. The final revision has 24 passing tests and a passing Pages-subpath build. Stored canonical records and user proposals remain compatible. The requested connection-label color fix also addresses Dark Reader recoloring of the already-dark app. Commit `dd2d66b` and Pages run `34306705768` publish this work; deployment history is preserved in PUBLIC-RELEASE-PLAN.md.
 
-Owner tone refinement: the current local presentation is OLED black with neutral charcoal surfaces and shorter conversational display labels. This supersedes the formal drafting copy from the preceding refinement; canonical source records and engineering limits remain unchanged. Desktop/narrow visual checks, 22 tests and build passed. Still unpublished.
+Owner tone refinement: the current published presentation is OLED black with neutral charcoal surfaces and shorter conversational display labels. This supersedes the formal drafting copy from the preceding refinement; canonical source records and engineering limits remain unchanged. Desktop/narrow visual checks, 24 tests, production build, deployment, and live-asset verification passed.

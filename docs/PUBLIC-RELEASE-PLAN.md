@@ -1,6 +1,6 @@
 # Public workspace release
 
-Status: published and verified. The repository is public. Deployment run 34297344856 successfully published application commit c3fa23d.
+Status: published and verified. The repository is public. Deployment run 34306705768 successfully published application commit dd2d66b.
 
 Live verification passed: HTTP 200, model canvas, guide navigation, contribution links, source snapshot, and no browser page errors.
 
@@ -11,7 +11,7 @@ Deployment uses the manually dispatched **Publish workspace to Pages** workflow 
 
 Visitors use Start here to understand the study and Questions & ideas to submit public GitHub issues. Their local board edits are not shared automatically. Maintainers review proposals before incorporating them. Public access does not establish engineering approval or an open-source license.
 
-The newer OLED, contextual-flow, and quick idea-capture work is not represented by the published site above until the manual Pages workflow is run again. A Git push alone does not deploy it. No public issue was created during this pass.
+The live site includes the OLED presentation, contextual module trails, evidence labels, and quick local idea capture. The deployed JavaScript asset was checked for the Add idea flow after the workflow completed. Future pushes still require the manual Pages workflow. No public issue was created during this pass.
 
 
 ## Unpublished local follow-up
