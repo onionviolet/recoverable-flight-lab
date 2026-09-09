@@ -28,3 +28,61 @@
 #model-host{pointer-events:auto}#model-host canvas{pointer-events:auto}.drawing-grid,.drawing-axis,.model-label{pointer-events:none}#model-hover{position:absolute;bottom:132px;left:20px;right:20px;text-align:center;font-size:11px;color:#c7d7e5;pointer-events:none}.board-section-heading{pointer-events:auto;cursor:grab;touch-action:none}.board-section-heading:active{cursor:grabbing}.board-section-heading:focus-visible{outline:2px solid #b1cbdc}.card.group-selected{outline:2px solid #8cbadd;box-shadow:0 0 0 5px #8cbadd22}
 
 #viewport{cursor:grab;user-select:none}#viewport.dragging,#viewport.dragging * ,#viewport.pan-ready,#viewport.pan-ready *{cursor:grabbing!important}#inspector,dialog{user-select:text}
+
+/* Keep first-visit context readable without changing the saved board. */
+.canvas-heading>p{display:block;font-size:12px;color:#acbdca;margin:7px 0;max-width:620px}
+.reading-path{border-bottom:1px solid #485c6c;padding-bottom:20px;margin-bottom:25px}
+.reading-path p{font-size:12px;line-height:1.65;color:#b7c8d5}
+.reading-path nav,.reading-options{display:flex;flex-wrap:wrap;gap:5px}
+.reading-path button{font-size:11px;padding:7px 9px}
+.reading-path [aria-current]{background:#354d60;border-color:#a7bdcf}
+.reading-options{margin-top:10px}
+@media(max-width:800px){.canvas-heading>p{display:none}.reading-path button{min-height:36px}}
+/* Explicit ink/background pair stays readable over both model and board. */
+#connections .edge rect{fill:#172633;stroke:#91a8ba;stroke-width:1.5}
+#connections .edge text{fill:#f4f7fa;font-weight:600;letter-spacing:0}
+#connections .edge:hover rect,#connections .edge:focus rect{fill:#304a60;stroke:#f4f7fa;stroke-width:2}
+#connections .edge:hover text,#connections .edge:focus text{fill:#ffffff}
+.relation-verb{text-transform:none;letter-spacing:0;font-size:11px;line-height:1.6;color:#c4d2dd}
+@media(max-width:800px){.topbar{overflow-x:auto}.top-actions{flex-shrink:0}.brand{flex-shrink:0}}
+
+/* OLED palette: black canvas, quiet panels, readable neutral ink. */
+:root{color-scheme:dark;--accent:#ededed;--muted:#a5a5a5;--line:#303030;--panel:#101010;background:#000;color:#ededed}
+body,#app{background:#000}
+.topbar,.rail{background:#080808;border-color:#292929}
+#viewport{background:radial-gradient(circle,#ffffff12 .7px,transparent .8px),#000;background-size:24px 24px}
+#inspector,#outline,dialog,#project-menu{background:#0c0c0c;border-color:#303030}
+.card,.card.module,.card.question,.card.experiment{background:#101010;border-color:#393939;border-radius:8px}
+.card.selected{border-color:#c8c8c8;box-shadow:0 0 0 1px #ffffff15}
+.board-section,.section-vehicle{background:#ffffff02;border-color:#303030;border-radius:8px}
+#section-nav,#connection-controls label,#connection-controls button,.zoom-tools{background:#101010;border-color:#383838;box-shadow:none}
+#section-nav button.active,button.active,.rail-button.active,.outline-item.active,.reading-path [aria-current]{background:#282828;color:#fff;border-color:#686868}
+button:hover{background:#252525;border-color:#666}
+.primary{background:#e6e6e6;color:#111;border-color:#e6e6e6}
+.primary:hover{background:#fff}
+input,textarea,select,#connection-controls select{background:#111;color:#eee;border-color:#444}
+.model-toolbar button,.model-toolbar button:first-child{background:#171717;border-color:#505050;color:#eee;border-radius:6px}
+.model-toolbar button.active{background:#333;color:#fff;border-color:#888}
+.canvas-hint{background:#000d;color:#b1b1b1}
+.model-label,.draft-stamp{background:#090909e8;border-color:#444;color:#d8d8d8}
+.model-kicker span{color:#ccc;border-color:#555}
+.drawing-grid{opacity:.4}.drawing-axis{opacity:.5}
+.card h2,.board-section-heading h2,.inspector-body>h2{color:#f0f0f0}
+.card p,.detail-lead,.detail-text,.reading-path p,dialog p,.related-row>button:first-child{color:#bdbdbd}
+.eyebrow,.section-label,.inspector-top,.card-type,.detail-type,.model-kicker{color:#aaa;letter-spacing:.5px;font-family:inherit}
+.card-type,.detail-type,.section-label,.inspector-top,.relation-verb{text-transform:none}
+.claim,.module .claim,.detail-type span{color:#d0d0d0;border-color:#555}
+.model-label span,.model-caption,.dimension,#pose-note,#model-hover,.board-section-heading p,.source-lock,.relation-verb{color:#bcbcbc}
+.reading-path,.divider,.mini-spec,.related-row,.inspector-foot{border-color:#303030}
+#section-nav button,.source-link,.detail-actions button,.wide-dashed,.reading-options button{color:#ddd}
+#connections .edge-line{stroke:#a7a7a7}
+#connections .edge rect{fill:#111;stroke:#929292}
+#connections .edge text{fill:#fafafa}
+#connections .edge:hover rect,#connections .edge:focus rect{fill:#303030;stroke:#fff}
+#connections .edge:hover text,#connections .edge:focus text{fill:#fff}
+#section-nav,#connection-controls{box-shadow:none}
+.status-label{display:inline-block;padding:5px 8px;border:1px solid #5b5b5b;border-radius:999px;color:#eee;font-size:10px;letter-spacing:.3px}
+.reading-path{padding:0 0 20px;margin:16px 0 20px}.reading-path nav{align-items:center}.reading-path .primary{margin-left:auto}.quiet-action{border-color:transparent;color:#aaa}.draft-next{padding:11px;border-left:2px solid #777;background:#151515}.more-paths{margin-top:16px;color:#aaa;font-size:11px}.more-paths summary,.record-details>summary{cursor:pointer}.more-paths div{display:flex;flex-wrap:wrap;gap:5px;margin-top:10px}.more-paths button{font-size:10px;padding:6px 8px}.record-details{margin-top:18px}.record-details>summary{color:#c7c7c7;font-size:11px;padding:9px 0}.route-choice{border-top:1px solid #333;padding:12px 0}.route-choice h3{margin:0 0 4px}.route-choice p{margin:5px 0 10px}.guide-actions{display:flex;gap:8px;flex-wrap:wrap}.small-print{font-size:11px}.contribution-link{display:inline-block;margin-right:10px}
+@media(max-width:800px){.reading-path{margin-top:8px}.reading-path p{line-height:1.45}.reading-path .primary{margin-left:0}.record-details{margin-top:10px}}
+.capture-types{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:18px 0}.capture-types button{text-align:left;padding:14px}.capture-types strong,.capture-types span{display:block}.capture-types strong{font-size:13px}.capture-types span{color:#aaa;font-size:10px;margin-top:6px;line-height:1.4}
+@media(max-width:520px){.capture-types{grid-template-columns:1fr}}

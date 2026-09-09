@@ -76,3 +76,24 @@ Verification for this refinement: 19 existing tests pass, Pages-subpath producti
 Canvas dragging now starts over the model in canvas mode, with pointer capture beginning only after the drag threshold so module clicks still work. Space-drag and middle-button drag pan over cards; trackpad scrolling pans and pinch zooms. Pointer cancellation and window blur end gestures, and completed drags suppress accidental clicks. Browser checks passed for model-background pan, Space-drag without card movement, trackpad pan, reload persistence, model hover, section/custom-group dragging, and undo. All 19 automated tests pass.
 
 The user subsequently authorized pushing the workspace and this correction to GitHub. Public visibility and Pages deployment remain deferred.
+
+## Contextual visitor flow
+
+The unpublished local build now leads with what the team wants to build, what the C4 model illustrates, and which engineering choices remain open. The inspector explains the selected record first, gives one useful next action, and puts broader navigation and full record tools behind optional disclosures. The packaging trail reaches its assumption, unperformed mockup, draft decision, and documentary evidence status without changing the saved graph.
+
+Nose/recovery and propulsion now state their missing hypothesis/test records and show proposed next steps as proposals. They do not fabricate graph edges or claim results. C4 remains the original integrated aspiration; C0/C1/C2 remain proposed separate articles. Contribution guidance separates private browser notes and portable backups from public GitHub issues and maintainer review.
+
+This was a presentation-layer change. Canonical records, schema, IDs, positions, user text, saved edge verbs, story order, source authority, migration behavior, and recovery behavior remain intact. Two focused tests cover the contextual trails; the full suite is now **24 passing tests**. The Pages-subpath production build and diff whitespace check pass. The Three.js chunk remains 590.70 kB (149.30 kB gzip) with Vite's existing warning.
+
+Current Chrome verification used `http://127.0.0.1:4193/recoverable-flight-lab/` on an isolated origin. The overview and packaging trail were walked through evidence; the nose recovery gap and draft action were observed; the bundled user-vision source loaded from the subpath; contribution routes were inspected without opening or submitting GitHub forms; a temporary local proposal survived reload and search. Desktop and 390 × 844 layouts were inspected, contextual next navigation worked, and the viewport override was reset. The temporary isolated-origin proposal was not removed because final UI deletion requires separate confirmation; it does not affect repository or user-origin data.
+
+No current file-chooser import/export roundtrip, crash-during-save test, screen-reader audit, exhaustive keyboard-only tour, physical touch test, or performance benchmark was performed. Existing data-level persistence/recovery tests passed. Owner aesthetic acceptance remains pending.
+
+Idea capture is now a primary top-bar action rather than a rail icon or contribution-dialog detour. It asks whether the note is an open question, possible answer, test to try, or draft decision, then opens the existing validated local-proposal form with that type selected. The form and Project menu both explain automatic browser storage and portable board backups. The public contribution path remains separate. Chrome verification opened each capture stage and confirmed that Test to try preselects the experiment type; no fixture was saved during this check.
+
+
+## Visitor-flow audit, local follow-up
+
+The [workspace flow audit](WORKSPACE-FLOW-AUDIT.md) records the pre-fix findings, implemented remedies, current browser evidence and remaining limits. It supersedes earlier test counts for this local revision: 22 tests and the Pages-subpath build pass. Stored canonical records and user proposals remain compatible. The requested connection-label color fix also addresses Dark Reader recoloring of the already-dark app. This follow-up is unpublished; earlier deployment history is preserved in PUBLIC-RELEASE-PLAN.md.
+
+Owner tone refinement: the current local presentation is OLED black with neutral charcoal surfaces and shorter conversational display labels. This supersedes the formal drafting copy from the preceding refinement; canonical source records and engineering limits remain unchanged. Desktop/narrow visual checks, 22 tests and build passed. Still unpublished.

@@ -1,9 +1,9 @@
 export const sections=[
- {id:'vehicle',title:'Vehicle concept',subtitle:'Configuration C4 · module interfaces',number:'01'},
- {id:'questions',title:'Open questions',subtitle:'Unresolved requirements and feasibility',number:'02'},
- {id:'experiments',title:'Experiments & decisions',subtitle:'Hypotheses, test proposals, and dispositions',number:'03'},
- {id:'directions',title:'Development paths',subtitle:'Candidate configurations and milestones',number:'04'},
- {id:'sources',title:'Sources & evidence',subtitle:'Reference documents and evidence status',number:'05'}
+ {id:'vehicle',title:'Vehicle concept',subtitle:'The original idea, part by part',number:'01'},
+ {id:'questions',title:'Open questions',subtitle:'What we still need to figure out',number:'02'},
+ {id:'experiments',title:'Experiments & decisions',subtitle:'Ideas to check, tests to try, choices to make',number:'03'},
+ {id:'directions',title:'Development paths',subtitle:'Smaller steps we could take',number:'04'},
+ {id:'sources',title:'Sources & evidence',subtitle:'Where the ideas came from',number:'05'}
 ];
 export function sectionFor(r){
  if(['vision','nose','wing','aft'].includes(r.id))return 'vehicle';
