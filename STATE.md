@@ -26,7 +26,7 @@ No validated glide performance, deployment timing, actuator behavior, structural
 
 Digital workspace: the [flow audit](docs/WORKSPACE-FLOW-AUDIT.md) owns the current visitor-flow implementation and verification. The OLED-black spatial canvas now opens with a whole-project explanation and a single contextual next action. Packaging has a complete module → unknown → assumption → unperformed test → draft decision → documentary-evidence trail. Nose/recovery and propulsion name their missing test records and offer clearly attributed local draft steps. A prominent Add idea action now sorts local notes into an open question, possible answer, test to try, or draft decision; the form explains browser autosave and portable backup. Full records, saved relationships, comparison, editing, arrangement, sources, local backup, and public GitHub review routes remain available without changing the persistence schema or canonical records. All 24 Node tests and the Pages-subpath production build pass; current browser evidence and limits are in the audit. Owner visual acceptance, actual touch/screen-reader review, full file-chooser recovery roundtrip, crash testing, and performance checks remain open.
 
-The current implementation is published from commit `dd2d66b`. GitHub Pages run `34306705768` completed successfully, and the live asset was checked for the new Add idea flow. See [release status](docs/PUBLIC-RELEASE-PLAN.md).
+The current implementation and synchronized USER-VISION source are published. GitHub Pages run `34307052783` completed successfully; the live application and source snapshot were checked after deployment. See [release status](docs/PUBLIC-RELEASE-PLAN.md).
 
 Physical project:
 
@@ -38,7 +38,7 @@ Do not treat the original envelope or suggested development architecture as an a
 
 Date and scope: 2026-09-08, digital workspace flow, idea capture, publication, and durable handoff.
 
-Where we left off: `origin/main`, local HEAD, and the published Pages application all contain `dd2d66b`. USER-VISION owns the accepted product experience and persistence boundaries. The flow audit owns implementation evidence and remaining checks.
+Where we left off: `origin/main` contains the consolidated vision and handoff, and the published Pages application serves the synchronized USER-VISION source. USER-VISION owns the accepted product experience and persistence boundaries. The flow audit owns implementation evidence and remaining checks.
 
 Decisions changed: the spatial idea board, OLED-black conversational presentation, contextual reading flow, obvious local idea capture, browser autosave/backup boundary, and separate public contribution route are accepted digital directions. No physical architecture was accepted. Shared cloud collaboration remains outside current scope.
 
