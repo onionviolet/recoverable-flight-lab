@@ -46,4 +46,4 @@ Markdown owners are authoritative. The optional site may organize or present que
 
 Use commercial certified motors through a qualified mentor and approved launch process. This repository contains no custom engine fabrication, propellant recipes, ignition procedures, or operational ascent-guidance implementation.
 
-The repository and the earlier GitHub Pages workspace publication are authorized. This work does not verify the current public site's parity with local changes. Team membership and repository licensing remain owner decisions. Third-party software keeps its own license.
+The repository and GitHub Pages workspace are public. The September 25 Pages release was checked against its built assets and source snapshot; see the [release record](docs/PUBLIC-RELEASE-PLAN.md). Team membership and repository licensing remain owner decisions. Third-party software keeps its own license.
