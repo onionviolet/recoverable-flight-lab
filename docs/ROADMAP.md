@@ -1,6 +1,10 @@
 # Development roadmap and physical build plan
 
-Audience: team and advisor. Type: current state. Updated: 2026-09-08.
+Audience: team and advisor. Type: current state. Updated: 2026-09-25.
+
+This document owns proposed physical development gates. The digital workspace can organize ideas and draft evidence trails, but it does not close a gate or establish a physical result. [User vision](../USER-VISION.md) owns accepted intent; this roadmap does not select a final vehicle architecture.
+
+The repository now carries two coordinated physical tracks. The rocket/glider track uses G0 through G4 below. The [drone track](DRONE-TRACK.md) uses D0 through D4 for fixed-wing, FPV, speed, autonomy, and mission work. They may share simulation, instrumentation, review habits, and evidence formats without being forced into one vehicle.
 
 These phases are evidence gates, not promised dates. A possible academic sequence is concept and independent demonstrators in one term, with integration considered in a later term. Actual duration depends on access, skills, budget, and test opportunities.
 
@@ -14,17 +18,21 @@ Select the mission from [tentative achievement goals](ACHIEVEMENT-GOALS.md). Mac
 | G1: Independent models and bench articles | Inert folding-wing demonstrator; basic data logger; baseline analytical models | Repeatable recorded mechanism behavior; readable sensor logs; explained model assumptions | Mechanical and avionics leads |
 | G2: Independent flight articles | Conventional rocket and separate glider | Supervised recoveries, inspection records, model-to-test comparison | Flight/recovery lead |
 | G3: Integration decision | Interface review, failure analysis, revised cost and mass budget | Evidence shows the added experiment is supportable; reviewers accept the test scope | Advisor and systems lead |
-| G4: Integration and reuse assessment | Only the approved configuration; final report and showcase | Authorized test evidence, all pieces accounted for, data analysis, reuse disposition | Whole team |
+| G4: Integration and reuse assessment | Only the approved configuration; final report and project presentation | Authorized test evidence, all pieces accounted for, data analysis, reuse disposition | Whole team |
 
 NASA Student Launch provides a useful model of preliminary design, critical design, flight readiness, and launch readiness reviews. Borrow the review structure; do not claim participation or approval. See [sources](SOURCES.md).
 
-## First five work packets
+## First five physical work packets
 
 1. Write the mission sheet: main demonstration, budget ceiling, deadline, experience, and available facilities.
 2. Establish the faculty mentor and launch-club route. Record what work the facilities permit.
 3. Measure an inert packaging mockup and create the first mass ledger.
 4. Produce a conventional rocket model and separate glider feasibility study with explicit unknowns.
 5. Review those results before ordering flight hardware or selecting final dimensions.
+
+These are proposed sequencing steps, not completed work or authorization to build. G0 remains open until the responsible people accept the mission, budget, mentor/site route, and test criteria.
+
+The [G0 first-article review sheet](G0-FIRST-ARTICLE-REVIEW.md) frames the immediate choice. Measured recovery of a conventional rocket is the recommended first flight goal to review; an inert wing demonstrator and independent glider remain separate proposed articles. Neither the recommendation nor the review sheet accepts an architecture or closes G0.
 
 ## Building in person
 

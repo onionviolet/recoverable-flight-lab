@@ -1,32 +1,40 @@
-[Open the interactive workspace](https://onionviolet.github.io/recoverable-flight-lab/) · [Ask a question or propose an idea](https://github.com/onionviolet/recoverable-flight-lab/issues/new/choose)
+[Current state](STATE.md) · [Physical roadmap](docs/ROADMAP.md) · [Drone track](docs/DRONE-TRACK.md) · [Decision register](docs/REGISTERS.md) · [Optional interactive site](https://onionviolet.github.io/recoverable-flight-lab/)
 
 # Recoverable Flight Lab
 
-Student rocketry, recoverable hardware, and an experimental deployable-wing glider.
+Planning repository for student rocketry, gliders, drones, recovery, simulation, and evidence-backed flight projects.
 
-**Status: concept and development specification, 2026-09-08. No vehicle has been designed for manufacture, simulated, or flight-qualified here.**
+**Physical status: no vehicle has been designed for manufacture, simulated, flight-qualified, or flown by this project.** The integrated folding-wing concept remains an aspiration. A conventional rocket, separate glider, and inert wing mechanism are proposed development articles, pending G0 scope decisions.
 
-The long-term idea is a modular rocket with a recoverable nose payload and folding wings. The proposed first build is a smaller conventional rocket with commercial certified propulsion and established recovery. A glider and an inert wing mechanism develop separately before any integration decision.
+**Planning status: G0 and D0 are open.** The primary demonstration, budget, mentor and reviewer coverage, test access, and evidence criteria still need owners. The rocket and drone branches are planning tracks, not selected builds. The [G0 first-article review sheet](docs/G0-FIRST-ARTICLE-REVIEW.md) is a proposed way to make the first physical choice.
 
-The previous showcase website has been scrapped at the user's request. A fresh [spatial workspace scope](docs/DIGITAL-WORKSPACE-SCOPE.md) is proposed, informed by the [reset decision](docs/DECISION-2026-09-08-DIGITAL-RESET.md). A first local [workspace application](workspace/README.md) now exists, with [verification and remaining review](docs/DIGITAL-WORKSPACE-IMPLEMENTATION.md).
+**Site status: extra.** The spatial ideaboard in [`workspace/`](workspace/README.md) remains a useful optional viewer and discussion tool. It is not the canonical project planner, and its cards cannot close an engineering gate. The [planning-first decision](docs/DECISION-2026-09-21-PLANNING-FIRST.md) records this change.
+
+## Plan the project
+
+Start in [current state](STATE.md), choose the relevant track, and record accepted changes in the owning document. Use [the roadmap](docs/ROADMAP.md) for shared physical gates, [the drone track](docs/DRONE-TRACK.md) for Flightory Stallion, FPV, speed, autonomy, and mission work, and [the register](docs/REGISTERS.md) for decisions and risks.
 
 ## Read the project
 
 | Document | Owns |
 |---|---|
-| [User vision](USER-VISION.md) | Original intent, desired experience, unresolved preferences |
+| [Current state](STATE.md) | Current handoff, active blockers, and next review |
+| [User vision](USER-VISION.md) | Accepted intent, physical aspirations, and project identity |
 | [Tentative achievement goals](docs/ACHIEVEMENT-GOALS.md) | Reuse, flight replay, wing demonstration, prediction, and a Mach 1 stretch option |
 | [System specification](docs/SYSTEM-SPEC.md) | Configuration, requirements, interfaces, acceptance evidence |
-| [Development roadmap](docs/ROADMAP.md) | Milestones, physical work, roles, budget structure, test records |
+| [Development roadmap](docs/ROADMAP.md) | Proposed physical milestones, roles, budget structure, and test records |
+| [G0 first-article review sheet](docs/G0-FIRST-ARTICLE-REVIEW.md) | One bounded mission decision and its exit evidence |
+| [Drone track](docs/DRONE-TRACK.md) | Flightory Stallion, FPV, high speed, autonomy, VTOL, endurance, and mission planning |
 | [Simulation plan](docs/SIMULATION-PLAN.md) | Model fidelity, inputs, validation, guidance scope |
 | [Simulator development scope](docs/SIMULATOR-DEVELOPMENT-SPEC.md) | Extending upstream, maintaining a fork, or building a new simulator; architecture and development gates |
 | [Open-source audit](docs/OPEN-SOURCE-AUDIT-2026-09-08.md) | Dated tool comparison, release/license evidence, local readiness, and evaluation packets |
-| [Digital workspace scope](docs/DIGITAL-WORKSPACE-SCOPE.md) | Proposed product, interaction blueprint, release scope, and evidence plan |
-| [Next builder packet](docs/DIGITAL-WORKSPACE-BUILDER-PACKET.md) | Bounded W1 implementation, pending user authorization |
+| [Digital workspace scope](docs/DIGITAL-WORKSPACE-SCOPE.md) | Historical scope and boundaries for the optional site |
+| [Digital workspace implementation](docs/DIGITAL-WORKSPACE-IMPLEMENTATION.md) | Site implementation evidence and remaining review limits |
+| [Workspace guide](workspace/README.md) | Optional site run, use, storage, and software limits |
 | [Propulsion and recovery choices](docs/TRADE-STUDIES.md) | Engine acquisition, jet comparison, visual presentation, alternatives |
 | [Risk and decision register](docs/REGISTERS.md) | Open questions, hazards, decisions, next owners |
 | [Sources](docs/SOURCES.md) | Primary references and their limits |
-| [Current state](STATE.md) | Completed work and the next bounded task |
+| [Planning-first decision](docs/DECISION-2026-09-21-PLANNING-FIRST.md) | Why Markdown planning now leads and the site is secondary |
 
 ## Working conventions
 
@@ -34,6 +42,8 @@ Keep user aspirations distinct from accepted engineering decisions. Record each 
 
 Keep geometry editable. Record units, assumptions, source versions, and measured values with every analysis. Mark illustrations and synthetic data clearly.
 
+Markdown owners are authoritative. The optional site may organize or present questions, drafts, and links, but it does not update decisions automatically. Physical gate status comes only from reviewed test records and the roadmap.
+
 Use commercial certified motors through a qualified mentor and approved launch process. This repository contains no custom engine fabrication, propellant recipes, ignition procedures, or operational ascent-guidance implementation.
 
-Private repository at creation. Team membership, public release, and licensing remain owner decisions. Third-party software keeps its own license.
+The repository and the earlier GitHub Pages workspace publication are authorized. This work does not verify the current public site's parity with local changes. Team membership and repository licensing remain owner decisions. Third-party software keeps its own license.

@@ -1,13 +1,13 @@
 # Risk, decision, and question registers
 
-Audience: team and reviewers. Type: current state. Updated: 2026-09-08.
+Audience: team and reviewers. Type: current state. Updated: 2026-09-25.
 
 ## Decisions
 
 | ID | Status | Record | Revisit trigger |
 |---|---|---|---|
 | D01 | User requested | Preserve the concept in a GitHub project with user vision, long-term specification, and diagram | User changes project ownership or direction |
-| D02 | Setup default | Working name Recoverable Flight Lab; private repository; no team invitations | Owner selects name, visibility, or collaborators |
+| D02 | Superseded setup default | The repository began private and is now public; the [September 8 release record](PUBLIC-RELEASE-PLAN.md) records the visibility change. Collaborator access was not checked in this review. | Owner changes visibility or collaborator policy |
 | D03 | Proposed | Conventional rocket and independent glider before integration | G0 review and team priorities |
 | D04 | Proposed | Commercial certified rocket motor for the rocket baseline | A different mission is explicitly selected |
 | D05 | Unresolved | Final dimensions, module count, active control, and propulsion | Mass, site, budget, and reviewer evidence |
@@ -15,8 +15,13 @@ Audience: team and reviewers. Type: current state. Updated: 2026-09-08.
 | D07 | Proposed after audit | OpenRocket and FreeCAD first; RocketPy next; OpenVSP/JSBSim conditional for glider work. Simulation plan owns the current recommendation. | Reference-example results, team experience, and compatibility evidence |
 | D08 | User clarified scope | Simulator work includes upstream improvements, a fork, or original simulator development; route remains open | SD0 requirements and reference-suite review |
 | D09 | Superseded | Former website request retired by the [digital reset](DECISION-2026-09-08-DIGITAL-RESET.md); no old implementation is a design reference | User explicitly changes direction |
-| D10 | User requested | Scope a fresh spatial digital project workspace before implementation; reset note owns the decision | User changes product intent |
-| D11 | Proposed | [Digital scope](DIGITAL-WORKSPACE-SCOPE.md) recommends a local typed board, separate 3D inspection, and portable project export | User review; immediate shared editing or different primary session |
+| D10 | Superseded as project hierarchy | The spatial workspace was scoped and built; it is now an optional site under D12 | User makes the site primary again |
+| D11 | Optional site direction | [Digital scope](DIGITAL-WORKSPACE-SCOPE.md) describes a local typed board, separate 3D inspection, and portable project export | A named site need changes its scope |
+| D12 | User requested | The repository is the dedicated planning product; the interactive site is an optional extra | User changes the project hierarchy |
+| D13 | User requested | Add a parallel drone track covering Flightory Stallion, FPV, high-speed work, autonomy/simulation, VTOL, endurance, and useful missions | D0 mission review |
+| D14 | User requested candidate | Record the Neuronaut NX-2 and its efficiency-testing workflow as a comparison candidate; no airframe, purchase, or operation is selected | D0 mission review, licensing check, and installed-cost comparison |
+
+The first physical mission remains undecided. Use the [G0 first-article review sheet](G0-FIRST-ARTICLE-REVIEW.md) to compare a measured-recovery conventional rocket with the team's preferred alternative. The sheet is a proposal for review, not an accepted D03 decision or a flight authorization. D0 remains open for the independent drone track.
 
 ## Risk register
 
@@ -35,6 +40,10 @@ Likelihood and severity scores are not assigned without a defined configuration.
 | H09 | Site or operational permissions do not cover the mission | Written scope confirmation before flight planning | Flight lead | Open |
 | H10 | Procurement exceeds budget or operator eligibility | Scope and quote review before orders | Project lead | Open |
 | H11 | Handling introduces pinch, battery, heat, or propulsion hazards | Applicable facility/manufacturer procedures and supervised work | Lab supervisor | Open |
+| H12 | Drone scope combines incompatible missions into one first aircraft | Select one primary mission and one optional extension at D0 | Drone systems lead | Open |
+| H13 | FPV video is treated as the complete control and safety system | Review video, control, telemetry, recording, fallback, observer roles, and applicable rules together | Drone avionics lead | Open |
+| H14 | A speed claim lacks repeatable evidence or recovery margin | Freeze the course, method, uncertainty, logs, control margin, and recovery criteria before a test | Performance lead | Open |
+| H15 | Theoretical endurance is reported as demonstrated range | Keep measured energy use, battery assumptions, reserve, wind, route, and actual flown distance separate | Performance lead | Open |
 
 ## Questions for the first review
 

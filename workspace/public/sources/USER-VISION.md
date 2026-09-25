@@ -1,6 +1,6 @@
 # User vision
 
-Audience: student team and faculty advisor. Type: current state. Updated: 2026-09-08.
+Audience: student team and faculty advisor. Type: current state. Updated: 2026-09-21.
 
 ## Intent
 
@@ -23,7 +23,7 @@ The team wants to understand the physics while building in person. The result sh
 
 The source is the team's spoken description and whiteboard image supplied on 2026-09-08. Whiteboard labels are ideas, not approved instructions. The original photo is not published with this repository.
 
-This document owns user intent. The [digital workspace scope](docs/DIGITAL-WORKSPACE-SCOPE.md) now owns product recommendations; the [scoping prompt](docs/DIGITAL-WORKSPACE-PROMPT.md) preserves the task constraints. The user rejected and explicitly requested scrapping the entire showcase website, including the redesigned site. Its implementation, screenshots, old website prompt, and generated concept diagram were removed from the working tree. They must not be reused as design references. The user's original whiteboard and underlying engineering ideas remain source context, not a layout to copy.
+This document owns user intent. The [roadmap](docs/ROADMAP.md), [drone track](docs/DRONE-TRACK.md), and subject-specific plans own project recommendations. The earlier digital scope and implementation records now describe the optional site only. The user rejected and explicitly requested scrapping the former showcase website, including its redesign. Its removed implementation and assets must not be reused as design references. The user's original whiteboard and underlying engineering ideas remain source context, not a layout to copy.
 
 ## What should feel impressive
 
@@ -31,13 +31,21 @@ The team can show an understandable transformation, explain measured flight beha
 
 Potential directions are speed, reusable recovery, deployable wings, telemetry, and a drone payload. The team has not selected their priority order. Recovery and measurement are the proposed initial emphasis.
 
-The user now wants the digital product scoped from scratch, beyond a traditional website. The intended experience is a comprehensive, expanded digital version of the project whiteboard: spatial, explorable, and properly organized. Dragging around a canvas, inspecting an impressive 3D concept, hovering/selecting modules, and exploring connected ideas are desired qualities. A space backdrop is a visual preference, not evidence of orbital capability. Wings must stow inside the cylinder, not remain attached outside when folded.
+The September 8 digital task scoped an experience beyond a traditional website: a spatial, explorable version of the project whiteboard with a 3D concept, module inspection, and connected ideas. Those remain preferences for the optional site. A space backdrop is a visual preference, not evidence of orbital capability. Wings must stow inside the cylinder, not remain attached outside when folded.
 
-A spatial project workspace connecting concepts, questions, sources, experiments, and evidence began as the proposed product interpretation and is now the accepted digital direction below. The user authorized its implementation using the original whiteboard as concept reference, with text alongside the canvas, then authorized the public repository and GitHub Pages deployment. This does not accept a final physical architecture. The rejected site is not a starter shell, template, or accepted visual direction. See the [decision record](docs/DECISION-2026-09-08-DIGITAL-RESET.md) for the explicit reset and handoff.
+A spatial workspace connecting concepts, questions, sources, experiments, and evidence was implemented and published. On September 21, the user changed the hierarchy: the repository is the dedicated planning product, while the site remains an extra. Neither decision accepts a final physical architecture. See the [digital reset](docs/DECISION-2026-09-08-DIGITAL-RESET.md) and [planning-first decision](docs/DECISION-2026-09-21-PLANNING-FIRST.md).
 
-## Accepted digital workspace direction
+## Accepted repository direction
 
-The working product is an explorable idea board, not a conventional showcase site. Keep the spatial canvas, selectable 3D concept, module cards, typed project relationships, contextual inspector, outline/search, editing, arrangement, presentation sequence, and recovery controls. Preserve the OLED-black and charcoal palette, high-contrast connection labels, and short casual language. The tone can be playful; claim status must remain exact.
+Recoverable Flight Lab is a dedicated planning repository. It should make the physical vision, rocket and drone tracks, open choices, evidence gates, sources, test plans, and current state easy for a student team and advisor to review. Markdown planning records are the canonical project surface.
+
+The interactive workspace is an optional extra for exploring and presenting selected ideas. Keep it available, but do not make planning work depend on it and do not treat a site card as a decision, assignment, test record, or gate result. The [planning-first decision](docs/DECISION-2026-09-21-PLANNING-FIRST.md) supersedes the earlier site-first hierarchy.
+
+Drone work is now a first-class parallel planning track. It includes Flightory Stallion research, fixed-wing and multirotor FPV, high-speed evidence, simulation and autonomy, VTOL, endurance, mapping, search support, and swappable sensing payloads. These directions remain independent of the rocket baseline unless a later reviewed decision connects them. [Drone track](docs/DRONE-TRACK.md) owns the current plan.
+
+## Optional interactive workspace direction
+
+The optional site is an explorable idea board, not a conventional showcase site. Keep the spatial canvas, selectable 3D concept, module cards, typed project relationships, contextual inspector, outline/search, editing, arrangement, presentation sequence, and recovery controls. Preserve the OLED-black and charcoal palette, high-contrast connection labels, and short casual language. The tone can be playful; claim status must remain exact.
 
 A first-time visitor should be able to explain the overall aspiration, choose a module, follow its biggest unknown toward a possible answer, proposed test, decision condition, and evidence status, then understand how to contribute. Explanations come before tools. Suggested navigation is reading guidance, not a saved engineering relationship.
 

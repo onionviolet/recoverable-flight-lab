@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {newProject,validateProject,saveProject} from '../src/data.js';
+import {newProject,validateProject,saveProject,adoptSourceSnapshot} from '../src/data.js';
 import {createVehicle,deployedVertices} from '../src/model.js';
 import * as T from 'three';
 const storage=()=>{const m=new Map();return {getItem:k=>m.get(k)||null,setItem:(k,v)=>m.set(k,v)};};
@@ -17,3 +17,20 @@ test('stale manifest is preserved for explicit review instead of silently update
 test('actual deployed mesh span remains in aspirational 3–4 ft range',()=>{const v=createVehicle();v.root.updateMatrixWorld(true);const bounds=new T.Box3().setFromObject(v.deployed);assert.ok(bounds.max.x-bounds.min.x>=3&&bounds.max.x-bounds.min.x<=4);});
 test('deletion of another tab’s saved board prevents silent recreation',()=>{assert.throws(()=>saveProject(storage(),'k',newProject(),4),/Another tab/);});
 test('failed candidate save preserves the original project and saved bytes',()=>{const s=storage(),original=saveProject(s,'k',newProject(),0),before=s.getItem('k'),candidate=newProject();candidate.records.find(r=>r.id==='hyp').title='Imported candidate';const broken={getItem:s.getItem,setItem:()=>{throw Error('quota');}};assert.throws(()=>saveProject(broken,'k',candidate,1));assert.equal(s.getItem('k'),before);assert.notEqual(original.records.find(r=>r.id==='hyp').title,'Imported candidate');});
+test('older boards remain valid before adopting newly introduced starter records',()=>{
+ const p=newProject(),introduced=new Set(p.records.filter(record=>record.introduced).map(record=>record.id));
+ p.records=p.records.filter(record=>!introduced.has(record.id));
+ p.edges=p.edges.filter(edge=>!introduced.has(edge.from)&&!introduced.has(edge.to));
+ p.records.find(record=>record.id==='hyp').title='My preserved folding idea';
+ assert.equal(validateProject(structuredClone(p)).records.some(record=>record.id==='drone-lab'),false);
+ const adopted=adoptSourceSnapshot(p);
+ assert.ok(adopted.records.some(record=>record.id==='drone-lab'));
+ assert.equal(adopted.records.find(record=>record.id==='hyp').title,'My preserved folding idea');
+ assert.ok(adopted.edges.some(edge=>edge.from==='drone-lab'&&edge.to==='stallion'&&edge.verb==='contains'));
+});
+test('drone starter branch covers Stallion, FPV, speed, missions, and primary sources',()=>{
+ const p=newProject(),ids=new Set(p.records.map(record=>record.id));
+ for(const id of ['drone-lab','stallion','fpv','fast-drone','drone-missions','flightory-source','ardupilot-fpv-source','faa-drone-source'])assert.ok(ids.has(id),id);
+ assert.equal(p.records.find(record=>record.id==='stallion').source,'flightory-source');
+ assert.ok(p.edges.some(edge=>edge.from==='faa-drone-source'&&edge.to==='speed-question'));
+});

@@ -38,9 +38,27 @@ test('packaging trail moves from function through unknown, test, decision, and e
 test('nose and propulsion trails state their missing test work as proposals',()=>{
  const p=newProject(),byId=id=>p.records.find(r=>r.id===id);
  assert.equal(contextStep(byId('nose')).next,'recover');
- assert.match(contextStep(byId('recover')).explain,/No recovery hypothesis or test record exists yet/);
+ assert.match(contextStep(byId('recover')).explain,/Follow the saved connections/);
  assert.equal(contextStep(byId('recover')).draft,true);
- assert.equal(contextStep(byId('recover')).draftType,'experiment');
+ assert.equal(contextStep(byId('recover')).draftType,'hypothesis');
  assert.match(contextStep(byId('aft')).proposal,/Proposed next step/);
  assert.equal(contextStep(byId('aft')).draft,true);
+});
+
+
+test('edited starter proposals do not retain explanations of their replaced content',()=>{
+ const p=newProject(),r=p.records.find(record=>record.id==='hyp');
+ r.title='An alternative arrangement';
+ r.detail='The original segmented fold is no longer our working proposal.';
+ assert.equal(contextStep(r).label,'Edited proposal');
+ assert.doesNotMatch(contextStep(r).explain,/segmented fold might fit/);
+ assert.equal(contextStep(p.records.find(record=>record.id==='test')).label,'Unperformed test');
+});
+test('drone paths separate platform, FPV, speed evidence, and mission choice',()=>{
+ const p=newProject(),byId=id=>p.records.find(record=>record.id===id);
+ assert.equal(contextStep(byId('drone-lab')).next,'mission-question');
+ assert.equal(contextStep(byId('stallion')).next,'stallion-question');
+ assert.equal(contextStep(byId('fpv-question')).draftType,'hypothesis');
+ assert.equal(contextStep(byId('speed-question')).draftRelationship,'from-new:investigates');
+ assert.equal(contextStep(byId('mission-question')).draftType,'decision');
 });

@@ -1,6 +1,6 @@
 # Public workspace release
 
-Status: published and verified. The repository is public. Deployment run 34307052783 successfully published the current application and synchronized USER-VISION source.
+Status: September 8 application published and verified. The repository is public. Deployment run 34307052783 published that application and its synchronized USER-VISION source. Later planning and optional-site changes on the review branch are not part of this deployment.
 
 Live verification passed: HTTP 200, model canvas, guide navigation, contribution links, source snapshot, and no browser page errors.
 
@@ -16,4 +16,8 @@ The live site includes the OLED presentation, contextual module trails, evidence
 
 ## Unpublished local follow-up
 
-The [visitor-flow audit](WORKSPACE-FLOW-AUDIT.md) and its fixes are verified locally but are not part of the deployed application above. No push, visibility change, public issue submission or deployment occurred in this follow-up. A subsequent user request is required before publication.
+The [visitor-flow audit](WORKSPACE-FLOW-AUDIT.md) and its fixes were verified locally but were not part of the deployment above. No push, visibility change, public issue submission, or deployment occurred in that follow-up.
+
+## September 25 repository review branch
+
+The later [workspace review upgrade](WORKSPACE-REVIEW-UPGRADE.md), planning-first records, and drone track are source changes on a review branch. Pushing that branch does not run the manually dispatched Pages workflow. This release record does not claim live-site parity with the review branch.

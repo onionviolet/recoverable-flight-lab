@@ -7,7 +7,7 @@ export const sections=[
 ];
 export function sectionFor(r){
  if(['vision','nose','wing','aft'].includes(r.id))return 'vehicle';
- if(['baseline','goals','gate','guidance','drone','sim'].includes(r.id))return 'directions';
+ if(['baseline','goals','gate','guidance','drone','sim','drone-lab','stallion','fpv','fast-drone','drone-missions'].includes(r.id))return 'directions';
  if(['source','evidence'].includes(r.type))return 'sources';
  if(['hypothesis','experiment','decision'].includes(r.type))return 'experiments';
  return 'questions';
@@ -20,7 +20,11 @@ export function sectionBounds(records,id){
  return {x,y,w:Math.max(...items.map(r=>r.x+r.w))-x+16,h:Math.max(...items.map(r=>r.y+r.h))-y+22};
 }
 export function organizeBoard(records){
- const layouts={questions:{x:60,y:95,cols:1},experiments:{x:60,y:925,cols:4},directions:{x:60,y:1320,cols:4},sources:{x:60,y:2010,cols:4}};
+ const count=id=>records.filter(record=>record.id!=='vision'&&sectionFor(record)===id).length;
+ const questionsY=95,experimentsY=questionsY+count('questions')*270+180;
+ const directionsY=experimentsY+Math.ceil(count('experiments')/4)*270+180;
+ const sourcesY=directionsY+Math.ceil(count('directions')/4)*270+180;
+ const layouts={questions:{x:60,y:questionsY,cols:1},experiments:{x:60,y:experimentsY,cols:4},directions:{x:60,y:directionsY,cols:4},sources:{x:60,y:sourcesY,cols:4}};
  const indices={};
  for(const r of records){if(r.id==='vision')continue;const section=sectionFor(r);if(section==='vehicle'){r.x=1020;r.y={nose:95,wing:335,aft:575}[r.id];continue;}const n=indices[section]||0,l=layouts[section];r.x=l.x+(n%l.cols)*345;r.y=l.y+Math.floor(n/l.cols)*270;indices[section]=n+1;}
 }

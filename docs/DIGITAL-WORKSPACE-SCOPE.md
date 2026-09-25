@@ -2,7 +2,7 @@
 
 Audience: students, owner, and next builder. Type: proposed product scope. Updated: 2026-09-08.
 
-Status: proposed scope with a first local implementation now authorized by the user and recorded in [implementation evidence](DIGITAL-WORKSPACE-IMPLEMENTATION.md). Final visual acceptance and the unselected architecture decisions remain open. The [user vision](../USER-VISION.md) owns intent; the [reset decision](DECISION-2026-09-08-DIGITAL-RESET.md) supersedes the entire former site. This document owns the proposed digital product and its release boundary. Physical requirements remain in the [system specification](SYSTEM-SPEC.md), physical gates in the [roadmap](ROADMAP.md), and simulator development in its [separate specification](SIMULATOR-DEVELOPMENT-SPEC.md).
+Status: historical scope and current boundary for the optional site. The first local implementation is recorded in [implementation evidence](DIGITAL-WORKSPACE-IMPLEMENTATION.md). Under the [planning-first decision](DECISION-2026-09-21-PLANNING-FIRST.md), this document no longer owns the repository’s primary product hierarchy. Physical requirements remain in the [system specification](SYSTEM-SPEC.md), physical gates in the [roadmap](ROADMAP.md), drone planning in [the drone track](DRONE-TRACK.md), and simulator development in its [separate specification](SIMULATOR-DEVELOPMENT-SPEC.md).
 
 ## Product definition
 
