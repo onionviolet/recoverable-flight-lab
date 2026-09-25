@@ -1,6 +1,6 @@
 # Public workspace release
 
-Status: September 8 application published and verified. The repository is public. Deployment run 34307052783 published that application and its synchronized USER-VISION source. Later planning and optional-site changes on the review branch are not part of this deployment.
+Status: September 9 application published and verified. The repository is public. The latest completed Pages run before the September 25 update is [34307672209](https://github.com/onionviolet/recoverable-flight-lab/actions/runs/34307672209) from `d0cdd0a`; it published the application and synchronized USER-VISION source. Later planning and optional-site changes are committed but not part of that deployment.
 
 Live verification passed: HTTP 200, model canvas, guide navigation, contribution links, source snapshot, and no browser page errors.
 
@@ -18,6 +18,6 @@ The live site includes the OLED presentation, contextual module trails, evidence
 
 The [visitor-flow audit](WORKSPACE-FLOW-AUDIT.md) and its fixes were verified locally but were not part of the deployment above. No push, visibility change, public issue submission, or deployment occurred in that follow-up.
 
-## September 25 repository review branch
+## September 25 repository update
 
-The later [workspace review upgrade](WORKSPACE-REVIEW-UPGRADE.md), planning-first records, and drone track are source changes on a review branch. Pushing that branch does not run the manually dispatched Pages workflow. This release record does not claim live-site parity with the review branch.
+The later [workspace review upgrade](WORKSPACE-REVIEW-UPGRADE.md), planning-first records, and drone track are committed source changes. Pushing repository source does not run the manually dispatched Pages workflow. Live-site parity with this update remains unverified until a new deployment and browser check succeed.

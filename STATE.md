@@ -6,7 +6,7 @@ Audience: next contributor. Type: current state. Updated: 2026-09-25.
 
 Recoverable Flight Lab is a planning repository for rocket, glider, drone, recovery, simulation, and evidence work. [User vision](USER-VISION.md) owns accepted intent. [The roadmap](docs/ROADMAP.md) owns shared physical gates, [the drone track](docs/DRONE-TRACK.md) owns Flightory Stallion, Neuronaut NX-2, FPV, high-speed, autonomy, VTOL, endurance, and mission planning, and [the register](docs/REGISTERS.md) owns live decisions and risks.
 
-The interactive ideaboard in `workspace/` is an optional extra. It can present the concept, organize browser-local proposals, and produce review briefs, but it is not the canonical plan or a gate authority. The September 8 site is published; the later review tools and drone additions in this review branch are not deployed. [The planning-first decision](docs/DECISION-2026-09-21-PLANNING-FIRST.md) owns this hierarchy.
+The interactive ideaboard in `workspace/` is an optional extra. It can present the concept, organize browser-local proposals, and produce review briefs, but it is not the canonical plan or a gate authority. The September 9 site build is published; the later review tools and drone additions are committed but not yet deployed. [The planning-first decision](docs/DECISION-2026-09-21-PLANNING-FIRST.md) owns this hierarchy.
 
 ## Active planning tracks
 
@@ -15,7 +15,7 @@ The interactive ideaboard in `workspace/` is an optional extra. It can present t
 | Rocket and recovery | Integrated folding-wing vehicle remains aspirational; conventional rocket, inert mechanism, and separate glider are proposed articles | G0 mission, budget, mentor/site, owners, and evidence criteria |
 | Drone flight lab | Stallion, NX-2, FPV, high speed, autonomy, VTOL, endurance, mapping, and search are documented options; no platform or operation is selected | D0 selects one primary mission and one optional extension |
 | Simulation and data | Candidate tools and development routes are documented; none has been executed or selected | Choose one reference case after the mission is fixed |
-| Optional site | Spatial ideaboard exists with local uncommitted improvements and drone cards | Review only if the team wants the extra viewer updated or published |
+| Optional site | Spatial ideaboard and newer review tools are committed; Pages still serves the earlier build | Publish the updated viewer and verify live behavior |
 
 ## Evidence boundary
 
@@ -25,7 +25,7 @@ No manufacture-ready CAD, executable flight model, validated aerodynamics, physi
 
 ## Local working tree
 
-This review branch preserves the pre-existing site review work and includes the September 21 planning-first documents and drone track. It also corrects the stale private-repository entry and adds a bounded G0 review sheet. These files are source and planning changes; the public Pages application remains the earlier deployment. See [the release record](docs/PUBLIC-RELEASE-PLAN.md) for its scope.
+The September 25 commit preserves the pre-existing site review work and includes the planning-first documents, drone track, public-repository correction, and bounded G0 review sheet. Pages publication is a separate manual workflow. See [the release record](docs/PUBLIC-RELEASE-PLAN.md) for its scope.
 
 The [workspace review record](docs/WORKSPACE-REVIEW-UPGRADE.md), [implementation record](docs/DIGITAL-WORKSPACE-IMPLEMENTATION.md), and [flow audit](docs/WORKSPACE-FLOW-AUDIT.md) remain software evidence only.
 
