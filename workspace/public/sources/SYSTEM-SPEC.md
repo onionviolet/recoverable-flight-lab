@@ -1,8 +1,14 @@
 # Preliminary system specification
 
-Audience: team and technical reviewers. Type: current state. Updated: 2026-09-08.
+Audience: team and technical reviewers. Type: current state. Updated: 2026-09-29.
 
 Status: proposed requirements for review, not flight approval. No dimensions beyond the user concept are frozen. SI units are the analysis standard.
+
+## Applicability and review
+
+This specification owns the proposed rocket, glider, and mechanism requirements below. The parallel [drone track](DRONE-TRACK.md) owns drone mission and platform planning; C0–C4 are not drone platform selections.
+
+At G0, map each applicable requirement ID to the selected article, a consenting owner, a predeclared criterion, and an evidence reference. Mark exclusions with a reason rather than treating them as passed. At review, record pass, fail, inconclusive, or evidence missing for each applicable requirement. Use [the roadmap’s gate and change-control rules](ROADMAP.md#gate-review-and-change-control) for scope acceptance and reopening; this table alone cannot close a gate.
 
 ## Configurations
 

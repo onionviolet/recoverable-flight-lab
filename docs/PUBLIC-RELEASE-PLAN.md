@@ -1,6 +1,10 @@
 # Public workspace release
 
-Status: published and verified. The repository is public. Deployment run 34307052783 successfully published the current application and synchronized USER-VISION source.
+Type: historical publication record. The observations below describe deployment run 34307052783, not a September 29 live check. [Current state](../STATE.md) owns the local/deployed distinction; later planning and workspace changes remain local pending authorized publication.
+
+## Recorded publication
+
+Status at the recorded deployment: published and verified. The repository is public. Deployment run 34307052783 successfully published the application at that revision and synchronized USER-VISION source.
 
 Live verification passed: HTTP 200, model canvas, guide navigation, contribution links, source snapshot, and no browser page errors.
 
@@ -11,7 +15,7 @@ Deployment uses the manually dispatched **Publish workspace to Pages** workflow 
 
 Visitors use Start here to understand the study and Questions & ideas to submit public GitHub issues. Their local board edits are not shared automatically. Maintainers review proposals before incorporating them. Public access does not establish engineering approval or an open-source license.
 
-The live site includes the OLED presentation, contextual module trails, evidence labels, and quick local idea capture. The deployed JavaScript asset was checked for the Add idea flow after the workflow completed. Future pushes still require the manual Pages workflow. No public issue was created during this pass.
+The verified deployment included the OLED presentation, contextual module trails, evidence labels, and quick local idea capture. The deployed JavaScript asset was checked for the Add idea flow after the workflow completed. Future pushes still require the manual Pages workflow. No public issue was created during this pass.
 
 
 ## Unpublished local follow-up

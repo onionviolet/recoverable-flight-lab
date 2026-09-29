@@ -1,13 +1,13 @@
 {
-  "id": "flight-seed-86080f46c280349c",
+  "id": "flight-seed-0bcc0be5dc04b293",
   "entries": {
     "USER-VISION.md": {
-      "sha256": "8b194ee4204a17dc3da926f1cbac7d8698b6251e451388f7629667d811dd443c",
+      "sha256": "cce4345035cff10cb893e33beb838cee1d48f3a580ea6975d2a18aeedf1f5125",
       "section": "complete document",
       "captured": "2026-09-08"
     },
     "docs/SYSTEM-SPEC.md": {
-      "sha256": "386945ea39ae20e7113609f19ce4e0e2e17be679243df6d147183b3019c2a811",
+      "sha256": "96ff0c5a73377bbf7987c1d31e434b967baf240fea2b0f3e8ff04c3119ec7187",
       "section": "complete document",
       "captured": "2026-09-08"
     }

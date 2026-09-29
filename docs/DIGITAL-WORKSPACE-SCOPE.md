@@ -2,7 +2,7 @@
 
 Audience: students, owner, and next builder. Type: proposed product scope. Updated: 2026-09-08.
 
-Status: proposed scope with a first local implementation now authorized by the user and recorded in [implementation evidence](DIGITAL-WORKSPACE-IMPLEMENTATION.md). Final visual acceptance and the unselected architecture decisions remain open. The [user vision](../USER-VISION.md) owns intent; the [reset decision](DECISION-2026-09-08-DIGITAL-RESET.md) supersedes the entire former site. This document owns the proposed digital product and its release boundary. Physical requirements remain in the [system specification](SYSTEM-SPEC.md), physical gates in the [roadmap](ROADMAP.md), and simulator development in its [separate specification](SIMULATOR-DEVELOPMENT-SPEC.md).
+Status: historical scope and current boundary for the optional site. The first local implementation is recorded in [implementation evidence](DIGITAL-WORKSPACE-IMPLEMENTATION.md). Under the [planning-first decision](DECISION-2026-09-21-PLANNING-FIRST.md), this document no longer owns the repository’s primary product hierarchy. Physical requirements remain in the [system specification](SYSTEM-SPEC.md), physical gates in the [roadmap](ROADMAP.md), drone planning in [the drone track](DRONE-TRACK.md), and simulator development in its [separate specification](SIMULATOR-DEVELOPMENT-SPEC.md).
 
 ## Product definition
 
@@ -147,7 +147,7 @@ G0 remains open: digital scoping is not advisor agreement to a physical mission.
 
 ## Reuse and technical evidence
 
-The [dated open-source audit](OPEN-SOURCE-AUDIT-2026-09-08.md) is inspiration, not a dependency decision. Preserve OS01 evaluation order, OS02 version matching, OS03 independent model boundaries, OS04 unverified runtime readiness, and OS05 replay reuse review. E1–E5 remain unexecuted by this task. Do not copy release/license snapshots into current product requirements or select an entire tool stack here.
+The [dated open-source audit](OPEN-SOURCE-AUDIT-2026-09-08.md) is inspiration, not a dependency decision. OS01’s original evaluation order is dated history, superseded by D07 in [the register](REGISTERS.md) and the current [simulation plan](SIMULATION-PLAN.md). Preserve OS02 version matching, OS03 independent model boundaries, OS04 unverified runtime readiness, and OS05 replay reuse review. E1–E5 remain unexecuted by this task. Do not copy release/license snapshots into current product requirements or select an entire tool stack here.
 
 OpenRocket/RocketPy can inform future run provenance; FreeCAD informs a possible later geometry source; OpenVSP/JSBSim belong to independent aircraft study. No integration follows merely from displaying their names. AltOS E5 is especially relevant before custom replay because the product needs trustworthy channels and gaps, not a novel plotting library. Verified primary-source findings and review dispositions follow below.
 

@@ -1,6 +1,6 @@
 # Source register
 
-Audience: team and reviewers. Type: current state. Checked: 2026-09-08.
+Audience: team and reviewers. Type: current state. Checked: 2026-09-21.
 
 These sources support general capabilities and planning. They do not validate this vehicle. Recheck current rules and manufacturer documentation before procurement or operations.
 
@@ -17,6 +17,12 @@ The [2026-09-08 open-source audit](OPEN-SOURCE-AUDIT-2026-09-08.md) contains the
 | [NAR motor listing](https://www.nar.org/content.aspx?club_id=114127&module_id=669684&page_id=22) | Current certification reference | No motor selected here |
 | [FAA amateur rockets](https://www.faa.gov/space/licenses/amateur-rockets) | U.S. amateur rocket framework | Actual authorization depends on the operation |
 | [FAA educational users](https://www.faa.gov/uas/educational_users) | Educational drone framework | Does not automatically authorize a carried aircraft |
+| [FAA recreational flyers](https://www.faa.gov/uas/recreational_flyers) | TRUST, registration, Remote ID, airspace, and visual-line-of-sight baseline | The actual purpose may require a different operating route; campus rules remain separate |
+| [Flightory Stallion](https://flightory.com/product/stallion/) | Manufacturer specifications, modular nose, FPV provision, VTOL option, files, and license | Vendor documentation does not validate a local build; purchased files may not be redistributed |
+| [Neuronaut NX-2 files](https://cults3d.com/en/3d-model/gadget/neuronaut-nx-2-ai-optimized-organic-flying-wing) | Paid airframe package, included files, recommended electronics, hardware, center of gravity, and seller support boundary | Listing claims and files do not establish a local build, tune, print profile, or flight result; terms must be checked before purchase or redistribution |
+| [NX-2 flight-test video](https://www.youtube.com/watch?v=m2O8MBCbXy0) | Propulsion comparison, loiter-test method, telemetry processing, measured energy use, and theoretical range estimates | Creator-reported evidence; theoretical range is not a completed long-range flight |
+| [NX-2 buyer comments](https://cults3d.com/en/users/Neuronautics/comments) | Reported gaps in ArduPilot parameters and printer profiles | User reports are leads to verify, not authoritative setup instructions |
+| [ArduPilot FPV overview](https://ardupilot.org/plane/docs/common-fpv-first-person-view.html) | Camera, video link, display, OSD, interference, and signal-loss planning | Not a selected autopilot, component list, or flight approval |
 | [NASA Student Launch](https://www.nasa.gov/learning-resources/nasa-student-launch/) | Student design and readiness review structure | No participation or approval implied |
 | [OpenRocket](https://openrocket.info/) | Open-source conventional rocket simulation | Nonstandard configurations require additional evidence |
 | [RocketPy documentation](https://docs.rocketpy.org/en/latest/index.html) | Six-degree-of-freedom rocket simulation | Tool capability is not model validation |

@@ -1,6 +1,6 @@
 # Simulator development scope
 
-Audience: student team, software builders, and technical reviewers. Type: current state. Updated: 2026-09-08.
+Audience: student team, software builders, and technical reviewers. Type: current state. Updated: 2026-09-29.
 
 ## User intent and status
 
@@ -74,7 +74,11 @@ Avoid creating a universal plug-in framework before two concrete models need the
 | SD3: Validated independent models | Separate conventional flight, glider, or inert mechanism capabilities as selected | Numerical verification plus independent physical validation for each claimed domain; limitations published |
 | SD4: Integration research and stable release | Only the justified combined capabilities, uncertainty reports, documented APIs, and reproducible release | State/data exchange verified, failures observable, physical evidence supports the advertised envelope, and a second contributor reproduces a result |
 
-These milestones can support either an upstream extension, fork, or new codebase. SD4 does not mean every possible phenomenon is modeled.
+These milestones can support either an upstream extension, fork, or new codebase. SD4 does not mean every possible phenomenon is modeled. All SD gates are currently open.
+
+Select the first vehicle question at G0 or D0, or explicitly select simulator learning as the purpose before SD0. The current [simulation plan](SIMULATION-PLAN.md) owns tool evaluation, including MathWorks access and comparison with open-source references; the September 8 audit does not freeze a tool order.
+
+Apply the shared [gate review and change-control rules](ROADMAP.md#gate-review-and-change-control) to software scope: record the tested revision, reference-case versions, declared tolerances, reviewer, and disposition. Changed equations, inputs, adapters, solver settings, or dependencies require an impact review and repeat checks for affected claims. Numerical verification and physical validation retain separate status.
 
 ## Verification versus validation
 
@@ -116,4 +120,4 @@ Required responsibilities are numerical/software implementation, physical-model 
 
 Choose whether the principal outcome is understanding the team's vehicle, learning simulator engineering, or serving future users with a reusable simulator. These goals can coexist, but their priority changes the build-versus-extend decision.
 
-The next bounded task is SD0: write the first five required behaviors and select reference evidence for them. Do not freeze a clean-sheet architecture or fork merely because it is available.
+The next bounded task is SD0: write up to five required behaviors for the selected question and select reference evidence for them. Do not freeze a clean-sheet architecture or fork merely because it is available.
