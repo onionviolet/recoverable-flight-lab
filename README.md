@@ -27,7 +27,7 @@ The record is still unfilled. For a rocket-specific comparison, use the existing
 
 ## Explore the optional ideaboard
 
-[Open the interactive site](https://onionviolet.github.io/recoverable-flight-lab/) to explore the spatial concept and connected ideas. It is an optional discussion aid; browser-local cards do not update the plan or establish engineering evidence. The September 25 publication includes the review tools and drone ideas; the revised presentation is prepared for republication. [Workspace guide](workspace/README.md) · [Planning-first decision](docs/DECISION-2026-09-21-PLANNING-FIRST.md)
+[Open the interactive site](https://onionviolet.github.io/recoverable-flight-lab/) to explore the spatial concept and connected ideas. It is an optional discussion aid; browser-local cards do not update the plan or establish engineering evidence. The September 29 presentation is published and live-verified, including the review tools and drone ideas. [Workspace guide](workspace/README.md) · [Planning-first decision](docs/DECISION-2026-09-21-PLANNING-FIRST.md)
 
 ## Find the supporting detail
 

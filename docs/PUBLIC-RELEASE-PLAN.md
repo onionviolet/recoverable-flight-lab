@@ -1,6 +1,6 @@
 # Public workspace release
 
-Status: September 25 application published and verified. The repository is public. [Pages run 36197160176](https://github.com/onionviolet/recoverable-flight-lab/actions/runs/36197160176) successfully built and deployed the workspace from `main` commit `898c752`. The previous published run was [34307672209](https://github.com/onionviolet/recoverable-flight-lab/actions/runs/34307672209) from `d0cdd0a` on September 9.
+Status: September 29 presentation published and live-verified; see the latest release below. September 25 publication history follows. The repository is public. [Pages run 36197160176](https://github.com/onionviolet/recoverable-flight-lab/actions/runs/36197160176) successfully built and deployed the workspace from `main` commit `898c752`. The previous published run was [34307672209](https://github.com/onionviolet/recoverable-flight-lab/actions/runs/34307672209) from `d0cdd0a` on September 9.
 
 Live verification passed: HTTP 200, model canvas, guide navigation, contribution links, source snapshot, and no browser page errors.
 
@@ -24,6 +24,6 @@ The later [workspace review upgrade](WORKSPACE-REVIEW-UPGRADE.md), planning-firs
 
 This verifies the deployed software path, not owner visual acceptance, exhaustive accessibility, touch hardware, crash tolerance, or physical engineering. Future source pushes still require a manual Pages run to update the public site.
 
-## September 29 presentation release candidate
+## September 29 presentation release
 
-Authorized by the user to update and publish again. The optional viewer now compares rocket/recovery and drone paths, links to canonical plans, and names both open mission gates in the review desk. Existing board IDs, local storage, recovery, and source-review behavior are preserved. Local verification: 49/49 tests, Pages-mode build, isolated browser persistence/import/export smoke, desktop and phone presentation checks. The existing model-chunk size advisory remains. Deployment and live verification are pending.
+Authorized by the user to update and publish again. The optional viewer now compares rocket/recovery and drone paths, links to canonical plans, and names both open mission gates in the review desk. Existing board IDs, local storage, recovery, and source-review behavior are preserved. Local verification: 49/49 tests, Pages-mode build, isolated browser persistence/import/export smoke, desktop and phone presentation checks. The existing model-chunk size advisory remains. [Pages run 36633267696](https://github.com/onionviolet/recoverable-flight-lab/actions/runs/36633267696) built and deployed commit `b79b33b` successfully. Live browser checks passed for both planning paths, drone routing, G0/D0 review text, phone width, and no page errors. Served JS, CSS, and source snapshots matched the local production build byte-for-byte. The repository’s documentation-only follow-up records this verification; it does not change the deployed bundle.
