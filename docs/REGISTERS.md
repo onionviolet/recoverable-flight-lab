@@ -53,6 +53,8 @@ Likelihood and severity scores are not assigned without a defined configuration.
 
 ## First-review record
 
+The [G0 first-article sheet](G0-FIRST-ARTICLE-REVIEW.md) is an optional rocket comparison aid; this register owns the shared review record and accepted decisions.
+
 Status: **unfilled proposal**. Copy this table into a dated review record under `docs/reviews/` when a review occurs, then link the result here. That directory and a completed review do not exist yet. Do not fill unknowns with assumed commitments.
 
 | Field | Review entry |

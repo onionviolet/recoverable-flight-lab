@@ -14,7 +14,7 @@ The next useful result is an agreed first demonstration. Mission selection is th
 
 Recoverable Flight Lab is a planning repository for rocket, glider, drone, recovery, simulation, and evidence work. [User vision](USER-VISION.md) owns accepted intent. [The roadmap](docs/ROADMAP.md) owns shared physical gates, [the drone track](docs/DRONE-TRACK.md) owns Flightory Stallion, Neuronaut NX-2, FPV, high-speed, autonomy, VTOL, endurance, and mission planning, and [the register](docs/REGISTERS.md) owns live decisions and risks.
 
-The interactive ideaboard in `workspace/` is an optional extra. It can present the concept, organize browser-local proposals, and produce review briefs, but it is not the canonical plan or a gate authority. The September 8 site is published; later local review and drone additions remain uncommitted and undeployed. [The planning-first decision](docs/DECISION-2026-09-21-PLANNING-FIRST.md) owns this hierarchy.
+The interactive ideaboard in `workspace/` is an optional extra. It can present the concept, organize browser-local proposals, and produce review briefs, but it is not the canonical plan or a gate authority. The September 25 site includes the review tools and drone cards. The September 29 presentation update is prepared locally for authorized publication. [The planning-first decision](docs/DECISION-2026-09-21-PLANNING-FIRST.md) owns this hierarchy.
 
 ## Active planning tracks
 
@@ -23,7 +23,7 @@ The interactive ideaboard in `workspace/` is an optional extra. It can present t
 | Rocket and recovery | Integrated folding-wing vehicle remains aspirational; conventional rocket, inert mechanism, and separate glider are proposed articles | G0 mission, budget, mentor/site, owners, and evidence criteria |
 | Drone flight lab | Stallion, NX-2, FPV, high speed, autonomy, VTOL, endurance, mapping, and search are documented options; no platform or operation is selected | D0 selects one primary mission and at most one optional extension |
 | Simulation and data | Candidate tools and development routes are documented; none has been executed or selected | Choose one reference case after the mission is fixed |
-| Optional site | Spatial ideaboard exists with local uncommitted improvements and drone cards | Review only if the team wants the extra viewer updated or published |
+| Optional site | Spatial ideaboard, review tools, and drone cards were published September 25; revised presentation is prepared locally | Publish and verify the authorized September 29 update |
 
 ## Evidence boundary
 
@@ -31,9 +31,9 @@ The original integrated vehicle is an aspiration. Conventional rocketry, a separ
 
 No manufacture-ready CAD, executable flight model, validated aerodynamics, physical prototype, selected propulsion or drone stack, approved operation, or flight result exists. The [simulation plan](docs/SIMULATION-PLAN.md) and [simulator scope](docs/SIMULATOR-DEVELOPMENT-SPEC.md) describe candidate routes; none is selected. The [September 8 tool audit](docs/OPEN-SOURCE-AUDIT-2026-09-08.md) is dated research, not current readiness.
 
-## Local working tree
+## Repository and release
 
-The repository already had uncommitted site review changes before the September 21 planning restructure. Those changes remain in place. The September 29 audit adds a first-review record, gate change-control rules, drone workstream dependencies, and consistent contribution/notebook ownership. No commit, push, Pages run, or live-site verification occurred in this audit.
+The repository already had uncommitted site review changes before the September 21 planning restructure. The September 25 release committed and published those changes. The September 29 audit adds a first-review record, gate change-control rules, drone workstream dependencies, and consistent contribution/notebook ownership. No commit, push, Pages run, or live-site verification occurred in this audit.
 
 The [workspace review record](docs/WORKSPACE-REVIEW-UPGRADE.md), [implementation record](docs/DIGITAL-WORKSPACE-IMPLEMENTATION.md), and [flow audit](docs/WORKSPACE-FLOW-AUDIT.md) remain software evidence only.
 
@@ -57,3 +57,5 @@ Follow-up corrections: the system specification now scopes its requirements to r
 ## September 29 presentation adjustment
 
 The README now leads with the ambition, compares the two planning paths, and provides a short first-review route before the reference index. This handoff puts the next review first; the rocket roadmap leads with its proposed demonstration, and the drone track puts mission selection and evidence workstreams before platform specifications. These are local documentation changes. Links and heading anchors were checked; no application behavior, mission choice, physical gate, commit, or deployed site changed.
+
+The remote September 25 release history was merged before this publication. [Pages run 36197160176](https://github.com/onionviolet/recoverable-flight-lab/actions/runs/36197160176) deployed commit `898c752`; its verification remains dated software evidence. The [G0 first-article review sheet](docs/G0-FIRST-ARTICLE-REVIEW.md) is preserved as an optional rocket comparison packet; the register owns the shared G0/D0 review record.

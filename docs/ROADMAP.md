@@ -26,7 +26,7 @@ NASA Student Launch provides a useful model of preliminary design, critical desi
 
 ## Gate review and change control
 
-Use [the first-review record](REGISTERS.md#first-review-record) for G0 or D0. Keep each gate **open** until its exit evidence is linked to a dated review with a named reviewer, configuration or scope revision, outcome, and remaining conditions. Distinguish **ready for review**, **accepted for the stated scope**, and **blocked** from completion of a task. Current G0 and D0 are open; no later gate is accepted.
+Use [the first-review record](REGISTERS.md#first-review-record) for G0 or D0. The [G0 comparison sheet](G0-FIRST-ARTICLE-REVIEW.md) provides an optional rocket-specific packet. Keep each gate **open** until its exit evidence is linked to a dated review with a named reviewer, configuration or scope revision, outcome, and remaining conditions. Distinguish **ready for review**, **accepted for the stated scope**, and **blocked** from completion of a task. Current G0 and D0 are open; no later gate is accepted.
 
 Acceptance applies only to the reviewed scope. A changed mission, mass, material, geometry, control/recovery system, site, or operating conditions needs an impact review. Identify which evidence still applies, reopen affected gates, and record the required repeat work before relying on the prior result. Software checks alone cannot retain a physical gate's acceptance.
 

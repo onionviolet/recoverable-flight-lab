@@ -23,11 +23,11 @@ These are proposed routes. The integrated folding-wing vehicle remains an aspira
 2. Use the relevant track plan to propose one demonstration and name what is outside its scope.
 3. Capture the agreed constraints, evidence criterion, and one bounded next packet in [the first-review record](docs/REGISTERS.md#first-review-record).
 
-The record is still unfilled. This reading route does not choose a mission or close a gate. Accepted decisions belong in the register and the relevant track plan. For questions or ideas from outside the team, use [the contribution guide](CONTRIBUTING.md).
+The record is still unfilled. For a rocket-specific comparison, use the existing [G0 first-article review sheet](docs/G0-FIRST-ARTICLE-REVIEW.md). This reading route does not choose a mission or close a gate. Accepted decisions belong in the register and the relevant track plan. For questions or ideas from outside the team, use [the contribution guide](CONTRIBUTING.md).
 
 ## Explore the optional ideaboard
 
-[Open the interactive site](https://onionviolet.github.io/recoverable-flight-lab/) to explore the spatial concept and connected ideas. It is an optional discussion aid; browser-local cards do not update the plan or establish engineering evidence. The published site predates later local changes, and current parity has not been verified. [Workspace guide](workspace/README.md) · [Planning-first decision](docs/DECISION-2026-09-21-PLANNING-FIRST.md)
+[Open the interactive site](https://onionviolet.github.io/recoverable-flight-lab/) to explore the spatial concept and connected ideas. It is an optional discussion aid; browser-local cards do not update the plan or establish engineering evidence. The September 25 publication includes the review tools and drone ideas; the revised presentation is prepared for republication. [Workspace guide](workspace/README.md) · [Planning-first decision](docs/DECISION-2026-09-21-PLANNING-FIRST.md)
 
 ## Find the supporting detail
 
