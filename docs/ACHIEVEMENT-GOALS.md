@@ -1,6 +1,6 @@
 # Tentative achievement goals
 
-Audience: student team and advisor. Type: current state. Updated: 2026-09-08.
+Audience: student team and advisor. Type: current state. Updated: 2026-10-01.
 
 The user requested consideration of Mach 1 and other impressive achievements. This document owns the candidate goals. They are discussion targets, not approved flight requirements or demonstrated capabilities.
 
@@ -26,7 +26,7 @@ NAR identifies supersonic-capable rockets as high-performance vehicles with spec
 
 Proposed separation of scope: study the speed goal on a conventional rocket track. Keep folding-wing development and glider testing independent until their own evidence supports further review. Do not combine first-time high-speed flight, novel separation, and aircraft transition into one initial test.
 
-This repository does not select a motor, optimize geometry for a speed target, or provide powered guidance implementation. The first Mach 1 deliverable would be a feasibility and measurement review with the qualified team, budget, and range.
+The user authorized a separate local conventional performance candidate on October 1. [Revival-X](../outputs/revival-x/README.md) now supplies a source-labeled mass/geometry ledger, executable predictions, sensitivities and a measurement/physical review path. Its baseline predicts Mach 1.059 but loses the crossing with 500 g of extra payload. No flight motor, operational guidance, physical capability or range approval is selected. Independent transonic aerodynamics, structural/recovery qualification and a measured crossing remain open.
 
 ## Making the showcase memorable
 
@@ -53,7 +53,9 @@ No Mach 2 or higher target is selected. More speed is not a required progression
 | User vision capture | Completed |
 | Primary-source research and qualitative trade comparisons | Completed at preliminary planning depth |
 | Candidate achievement definitions | Documented for discussion |
-| Quantitative feasibility, trajectories, aerodynamic or structural results | Not performed |
+| Quantitative feasibility, trajectories, aerodynamic or structural results | Local OpenRocket/RocketPy performance and passive-stability studies executed; independent transonic aero, structural qualification and physical validation not performed |
 | Hardware, procurement, qualification, and flight evidence | Not performed |
 
-Next input: the team's budget ceiling and selected primary demonstration. Mass, workshop access, experience, and mentor/range availability remain necessary before credible flight feasibility conclusions.
+Next input: the team's budget ceiling and primary achievement, plus a mentor-reviewed stock/mass/CG and recovery-fit record. [The simulation plan](SIMULATION-PLAN.md) owns the executed digital evidence. Workshop access, experience and mentor/range availability remain necessary before physical selection.
+
+Historical September 8 planning statement, superseded for digital analysis only: "This repository does not select a motor, optimize geometry for a speed target, or provide powered guidance implementation. The first Mach 1 deliverable would be a feasibility and measurement review with the qualified team, budget, and range."

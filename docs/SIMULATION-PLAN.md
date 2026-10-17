@@ -1,10 +1,30 @@
 # Simulation and validation plan
 
-Audience: model builders and reviewers. Type: current state. Updated: 2026-09-24.
+Audience: model builders and reviewers. Type: current state. Updated: 2026-10-01.
 
 ## Objective
 
-Answer feasibility questions before committing to flight hardware. G0 may select a conventional rocket or independent glider question; D0 may select a drone question. No simulation track or tool has been selected, and no simulations have been executed in this repository.
+Answer feasibility questions before committing to flight hardware. G0 may select a conventional rocket or independent glider question; D0 may select a drone question. The user authorized an early OpenRocket trainer and a separate ambitious performance-model exploration on October 1; broader team tool selection and physical mission gates remain open.
+
+## Executed local exercise: Revival-01, October 1
+
+[Revival-01](../outputs/revival-01/README.md) asks what a small conventional trainer predicts on A8-3, B4-4 and C6-5, and how wind and an extra 10 g change the result. It adapts OpenRocket 24.12's bundled simple rocket into a nominal 25 mm paper/balsa airframe with motor-ejection parachute recovery. The packet owns its provisional input ledger, full .ork models, CSV traces, comparison results, source hashes and rerun script.
+
+Eight cases ran using the installed OpenRocket core and bundled motor database, without load, simulation, CP or save warnings. Full-data save/reload and a halved-timestep comparison passed. Both simulation and wind seeds are fixed in the script; independent complete reruns produced identical metrics. The baseline also opened in the installed GUI. This is executable software evidence from unmeasured inputs. It is not an accepted physical design, G0 result, launch approval or cross-tool validation. A8-3 is the proposed starting comparison in the training candidate, not selected flight hardware.
+
+The next trainer step is a reviewed parts/build and mass/CG record, followed by a revised prediction frozen before an independently observed flight. MathWorks comparisons and the integrated vehicle remain separate questions.
+
+Historical snapshot, superseded for this software exercise: the earlier objective stated, "No simulation track or tool has been selected, and no simulations have been executed in this repository." The September 29 handoff stated, "No manufacture-ready CAD, executable flight model, validated aerodynamics, physical prototype, selected propulsion or drone stack, approved operation, or flight result exists." The physical evidence and approval boundaries remain open.
+
+## Executed local performance study: Revival-X, October 1
+
+[Revival-X](../outputs/revival-x/README.md) asks whether a conventional, fully mass-budgeted, recoverable candidate can plausibly reach 3 km and cross Mach 1. Its source is Joe Pfeiffer's bundled OpenRocket 24.12 dual-deployment example, verified byte-for-byte against release commit `133b558de556f0282f51c3f53f3b3fc633b4310a` under GPL-3.0-or-later. New geometry, explicit component masses, source motor curves, recovery references and a synthetic environment are retained in the packet; all hardware inputs are unmeasured.
+
+Thirteen OpenRocket cases predict a baseline 3,097.6 m / Mach 1.059 and an L935 comparison 3,422.1 m / Mach 1.122. Twelve RocketPy cases independently integrate shared OpenRocket drag, including mass/drag/thrust/wind/recovery sensitivity. Recorded metrics match independent fresh-process repetitions exactly. Full-data .ork save/reload, dimensional/mass/CG/trace/event checks, a terminal-descent limiting check, and 0.02-to-0.01 s timestep comparison pass. The native installed app opens the candidate and its saved table/trajectory; geometry and headline values were visually inspected.
+
+The two solvers differ in ideal descent treatment: OpenRocket sums main/drogue drag, giving 6.70 m/s, while RocketPy uses the main alone, giving about 7.16 m/s. The matched Mach/AoA/CG static audit shows lower margins in high wind. Motor-file versus current public certification discrepancies and all warning/failure studies are retained. The rail-button position requires explicit effective-guide-travel correction in this release.
+
+This is digital numerical evidence, not validated performance or an accepted physical design. A RASAero geometry export was prepared with its unsupported internals and missing motor mappings reported; RASAero was not run on this Mac's unavailable Windows/.NET runtime. Independent transonic aerodynamics, fin flutter, load/attachment qualification, real packing/deployment, actual electronics and held-out flight validation remain open. NASA/IREC context is checked in the packet without selecting an entry. G0/D0 remain open; no purchase, contact, commit, push, deployment or physical work occurred.
 
 ## Tool evaluation after the W&L MathWorks license discovery
 
@@ -23,7 +43,7 @@ The [UAV Toolbox PX4 support package](https://www.mathworks.com/help/uav/setup-a
 
 ArduPilot SITL is conditional on an aircraft-software requirement. Project Chrono is conditional on a mechanism-dynamics question that simpler methods do not resolve. SU2 is conditional on a focused aerodynamic study with appropriate review.
 
-These are evaluation candidates, not accepted team selections. No package or MathWorks example has been run by this project. Match documentation to selected releases and evaluate compatibility in an isolated environment; verify the current Python environment before any Python-based run.
+These are evaluation candidates, not accepted team ecosystem selections. No MathWorks example has been run by this project; the local OpenRocket exercise is recorded above. Match documentation to selected releases and evaluate compatibility in an isolated environment; verify the current Python environment before any Python-based run.
 
 The [dated open-source audit](OPEN-SOURCE-AUDIT-2026-09-08.md) records eight candidate repositories, two reference ecosystems, release/license evidence, local inventory limits, and five pending evaluation packets. No integrated transition model has been validated.
 
@@ -138,4 +158,4 @@ There is no measured mass distribution, selected airframe, agreed wing geometry,
 
 For the Mach 1 candidate, document model validity across the relevant regime before interpreting its numerical predictions. For the winged candidate, establish independent aircraft and mechanism behavior first. These are separate feasibility questions.
 
-Immediate evaluation: confirm MathWorks access, run one unmodified UAV Toolbox or Aerospace Blockset reference example, and record its products, release, platform, inputs, outputs, runtime, and limits. Run a comparable open-source reference only after naming the first G0 or D0 question. Work that depends on the actual vehicle waits for measured inputs. All five packages above remain unstarted.
+S1 has local OpenRocket reference/reproduction evidence in Revival-01 and OpenRocket/RocketPy foundation evidence in Revival-X. The exploratory performance study does not accept the physical-input or G0/D0 conditions of S2. MathWorks access/example evaluation and larger S2-S5 work remain planned and ungated. For a later ecosystem comparison, name the first G0 or D0 question, run a comparable MathWorks reference and record products, release, platform, inputs, outputs, runtime and limits. Work that depends on the actual vehicle waits for measured inputs.

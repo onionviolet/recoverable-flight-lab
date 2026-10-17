@@ -1,12 +1,14 @@
 # Current state
 
-Audience: next contributor. Type: current state. Updated: 2026-09-29.
+Audience: next contributor. Type: current state. Updated: 2026-10-01.
 
-The next useful result is an agreed first demonstration. Mission selection is the current blocker; G0 and D0 remain open.
+Editable [Revival-01 trainer](outputs/revival-01/README.md) and [Revival-X performance candidate](outputs/revival-x/README.md) now exist for rocket-team revival. Revival-X predicts 3.10 km / Mach 1.059 on its baseline commercial motor reference and 3.42 km / Mach 1.122 in a comparison, from unmeasured inputs. The larger physical project still needs an agreed first demonstration; G0 and D0 remain open.
 
 ## Resume here
 
-1. Choose whether the first planning review is G0 for the rocket track or D0 for the drone track.
+The next physical input for either rocket candidate is a mentor-reviewed stock, mass/CG and recovery-fit record, plus the team's scope, budget and range/access choice. Match any reviewed article to measured inputs before freezing a prediction. Revival-X is a separate performance study; the trainer workshop remains a proposed team activity.
+
+1. Review the [three first-demonstration candidates](docs/G0-FIRST-ARTICLE-REVIEW.md): manual inert wings (recommended proposal), sensing bench, or synthetic drone-log analysis. Choose G0 or D0 scope.
 2. Fill the [first-review record](docs/REGISTERS.md#first-review-record) with one primary demonstration, budget ceiling, consenting owner, reviewer, test access route, evidence criterion, and bounded next packet.
 3. Record the accepted answers in [the register](docs/REGISTERS.md), then update the relevant track plan.
 
@@ -22,14 +24,24 @@ The interactive ideaboard in `workspace/` is an optional extra. It can present t
 |---|---|---|
 | Rocket and recovery | Integrated folding-wing vehicle remains aspirational; conventional rocket, inert mechanism, and separate glider are proposed articles | G0 mission, budget, mentor/site, owners, and evidence criteria |
 | Drone flight lab | Stallion, NX-2, FPV, high speed, autonomy, VTOL, endurance, mapping, and search are documented options; no platform or operation is selected | D0 selects one primary mission and at most one optional extension |
-| Simulation and data | Candidate tools and development routes are documented; none has been executed or selected | Choose one reference case after the mission is fixed |
+| Simulation and data | OpenRocket 24.12 executed for Revival-01 and Revival-X; RocketPy 1.13.0 trajectory comparison executed with shared drag; independent transonic aero review remains open | Replace assumed inputs with measured parts; reconcile recovery/aero limits and choose G0/D0 scope separately |
 | Optional site | Both planning paths, canonical plan links, review tools, and drone cards are published and live-verified | Owner visual acceptance and broader accessibility/touch checks remain open |
 
 ## Evidence boundary
 
 The original integrated vehicle is an aspiration. Conventional rocketry, a separate glider, an inert wing demonstrator, and all drone directions are proposed. Manufacturer pages, planning tables, simulations, renders, and site cards are not physical test evidence.
 
-No manufacture-ready CAD, executable flight model, validated aerodynamics, physical prototype, selected propulsion or drone stack, approved operation, or flight result exists. The [simulation plan](docs/SIMULATION-PLAN.md) and [simulator scope](docs/SIMULATOR-DEVELOPMENT-SPEC.md) describe candidate routes; none is selected. The [September 8 tool audit](docs/OPEN-SOURCE-AUDIT-2026-09-08.md) is dated research, not current readiness.
+The executable Revival-01 and Revival-X models use assumed geometry/material masses and bundled commercial motor references. No manufacture-ready CAD, physically validated aerodynamics, physical prototype, selected hardware propulsion or drone stack, approved operation, or flight result exists. The [simulation plan](docs/SIMULATION-PLAN.md) owns the local software evidence; the [simulator scope](docs/SIMULATOR-DEVELOPMENT-SPEC.md) retains the wider candidate routes. The [September 8 tool audit](docs/OPEN-SOURCE-AUDIT-2026-09-08.md) is dated research, not current readiness.
+
+## October 1 OpenRocket training candidate
+
+User-requested early rocket-team artifact created locally in [outputs/revival-01](outputs/revival-01/README.md). Both .ork files save full traces and reload without warnings; eight runs completed, the finer-timestep comparison passed, and independent scripted reruns produced identical metrics. The baseline was opened in the installed OpenRocket app and its geometry, A8-3 default, mass, stability and calm apogee were visually verified. The packet includes provisional inputs, component/stock inventory, effort and cost allowances, workshop sequence, sources and reproducible data. It has not been committed, pushed, deployed or physically built. Existing dirty planning work was retained.
+
+## October 1 Revival-X performance candidate
+
+User-authorized digital exploration created locally in [outputs/revival-x](outputs/revival-x/README.md), separate from the unchanged trainer. It adapts the exact GPL-3.0-or-later OpenRocket 24.12 dual-deployment example into a 2.337 m, 76.2 mm conventional fiberglass candidate with a complete 4.66 kg dry mass budget and 250 g payload allowance. Thirteen OpenRocket and twelve RocketPy cases executed; independent fresh-process repetitions agree exactly. Full simulation data save/reload, mass/CG and trace/event checks, analytical descent check, and halved-timestep comparison passed. Native installed-app geometry, statistics, simulation table and baseline trajectory were visually inspected.
+
+The Mach crossing is a model hypothesis with little mass margin, not a verified capability. Shared drag limits the independent trajectory comparison; RASAero aerodynamic execution, flutter/strength/opening loads, measured packing and physical flight evidence remain open. The packet records source motor discrepancies, high-wind and recovery-failure cases, costs, source license/hash, plots, and reproduction scripts. No G0/D0 acceptance, procurement, contact, commit, push, site change or publication occurred.
 
 ## Repository and release
 
@@ -63,3 +75,7 @@ The remote September 25 release history was merged before this publication. [Pag
 ## September 29 publication
 
 User-authorized update published from commit `b79b33b` through [Pages run 36633267696](https://github.com/onionviolet/recoverable-flight-lab/actions/runs/36633267696). All 49 tests and the Pages build passed. Isolated live browser checks passed for both planning paths, drone selection, G0/D0 review text, phone width, and absence of page errors. Served JS, CSS, and source snapshots matched the local production build byte-for-byte. Local persistence/recovery and JSON import/export browser smoke passed before deployment. 58 local documentation links and anchors passed. No private board or notebook record was published; no physical gate or mission choice changed.
+
+## September 29 first-demonstration packet
+
+Local proposed comparison now includes deliverables, measurement questions, dependencies, provisional effort/spending envelopes, and observable criteria for three bench/software candidates. WING-BENCH-01 gives the recommended inert wing option a drawing/inventory checkpoint and ten-cycle measurement procedure. [The register draft](docs/REGISTERS.md#september-29-first-demonstration-review-draft) retains unresolved owner, reviewer, access, budget and date. No team choice, G0/D0 acceptance, procurement, physical work, simulator run, site change or publication occurred. Estimates are unquoted allowances; resources remain unverified.

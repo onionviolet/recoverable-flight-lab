@@ -1,6 +1,6 @@
 # Drone flight track
 
-Audience: student team and advisor. Type: current state. Updated: 2026-09-29.
+Audience: student team and advisor. Type: current state. Updated: 2026-10-11.
 
 Choose one useful drone demonstration, then compare the platform and systems it needs. FPV, endurance, speed, mapping, and simulated autonomy are possible directions; D0 selects one primary mission and at most one extension.
 
@@ -50,6 +50,16 @@ Treat NX-2 as an endurance and measurement reference first, and as a possible li
 
 The practical reproduction route is staged: compare the airframe and installed cost, prove manual flight and recovery margin, establish the autopilot tune in simulation and controlled local tests, then measure energy per kilometer through repeated visual-line-of-sight loiter flights. Use those logs for a range estimate. Do not treat a casual 120 to 200 km mission as the test plan because the FAA recreational baseline requires visual line of sight or a co-located visual observer, and a qualifying aircraft at or above 250 g also requires registration and Remote ID outside a FRIA.
 
+## Idea candidate: WingtraRAY recreation
+
+Recorded October 11, 2026 at the user's request to save the ideas. Source: AirShaper's [How To Design The Ultimate Drone](https://www.youtube.com/watch?v=TTX6gkR_CdM). Asked which aspect to recreate, the user answered “everything?” Preserve the full-system ambition: recognizable shape, structure, vertical takeoff and transition, efficient cruise, modular sensing payloads, mapping, telemetry, power management, recovery, and aerodynamic development.
+
+The [WingtraRAY recreation study](WINGTRARAY-RECREATION-STUDY-2026-10-11.md) owns the detailed reference comparison, source findings, geometry assumptions, tool roles and proposed sequence. The idea is a custom twin-motor tailsitter informed by public specifications and editable references, not an exact engineering copy inferred from images. eXploraVTOL is the editable CAD reference; Eclipson E-VTOL-1 is a documented build comparison.
+
+Shape exploration could compare adjustable OpenVSP geometry and constrained AeroSandbox/NeuralFoil studies, then detailed AirShaper CFD for shortlisted geometries and propeller interaction. Autopilot simulation addresses controller behavior separately. Wingtra's reported 180-plus design variants and wind-tunnel/flight comparisons are a workflow reference, not a performance promise for this project.
+
+Status: **exploratory idea, D16**. No aircraft, tool stack, purchase, budget or first demonstration is selected. The paper-tube rocket remains a separate model. Next useful digital artifact: a dimensioned aircraft layout, mass/CG assumptions and one reproducible reference control simulation. Fabrication access, budget and first payload remain open.
+
 ## FPV planning checklist
 
 An FPV plan covers the whole link: camera field of view, video latency and quality, transmitter and receiver, goggles or display, on-screen information, control link, telemetry, recording, antenna placement, interference, loss indication, fallback behavior, pilot workload, and observer roles. ArduPilot’s overview is a useful systems checklist, not a selected implementation. [ArduPilot FPV overview](https://ardupilot.org/plane/docs/common-fpv-first-person-view.html)
@@ -63,6 +73,8 @@ Keep racing quadcopters and fast fixed wings separate because their structures, 
 The first deliverable is a measurement and review plan using recorded or simulated data. Do not combine a first airframe, first FPV system, first control tune, and headline speed attempt into one test.
 
 ## First review
+
+The [first-demonstration packet](G0-FIRST-ARTICLE-REVIEW.md) offers synthetic waypoint-log analysis as a hardware-independent D0 candidate. It verifies analysis on known inputs only; no aircraft, simulator or autonomy result is implied. This remains proposed alongside the other mission options.
 
 Answer these before selecting parts:
 
